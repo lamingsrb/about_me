@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazar Milicevic - WordPress Technical Support Engineer CV</title>
+    <style>
+        /* ATS-Optimized CV - Clean Design */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0f766e;
+            --primary-light: #14b8a6;
+            --dark: #1e293b;
+            --gray: #64748b;
+            --light-gray: #f1f5f9;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: var(--dark);
+            background: var(--white);
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+
+        /* Header - Contact Info */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            margin: -0.5in -0.5in 20px -0.5in;
+            padding: 30px 0.5in;
+            color: var(--white);
+        }
+
+        .name {
+            font-size: 28pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-size: 12pt;
+            font-weight: 300;
+            margin-bottom: 12px;
+            opacity: 0.95;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+        }
+
+        .contact-info span {
+            margin: 0 8px;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid var(--primary);
+            font-size: 9pt;
+            color: var(--gray);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* Section Headers */
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            margin: 15px 0 10px 0;
+            padding-bottom: 4px;
+        }
+
+        /* Professional Summary */
+        .summary {
+            margin-bottom: 10px;
+            background: var(--light-gray);
+            padding: 12px;
+            border-radius: 4px;
+        }
+
+        /* Core Skills */
+        .core-skills {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: var(--light-gray);
+            border-radius: 4px;
+        }
+
+        .core-skills p {
+            margin: 0;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 15px;
+        }
+
+        .skills-category {
+            margin-bottom: 4px;
+            padding: 6px 8px;
+            background: var(--light-gray);
+            border-radius: 3px;
+            font-size: 10pt;
+        }
+
+        .skills-category strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 2px;
+            font-size: 9pt;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 3px solid var(--primary-light);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: var(--primary);
+            font-size: 11pt;
+        }
+
+        .job-date {
+            font-style: italic;
+            color: var(--gray);
+            font-size: 9pt;
+        }
+
+        .company {
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+
+        .job ul {
+            margin-left: 18px;
+            font-size: 10pt;
+        }
+
+        .job li {
+            margin-bottom: 2px;
+        }
+
+        /* Education & Certifications */
+        .edu-item, .cert-item {
+            margin-bottom: 6px;
+            font-size: 10pt;
+        }
+
+        .cert-item ul {
+            margin-left: 18px;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 8px;
+            padding: 8px;
+            background: var(--light-gray);
+            border-radius: 4px;
+            font-size: 10pt;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .project-tech {
+            color: var(--gray);
+            font-size: 9pt;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0.4in;
+            }
+            .section-title {
+                page-break-after: avoid;
+            }
+            .job {
+                page-break-inside: avoid;
+            }
+        }
+
+        a {
+            color: var(--dark);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER - Contact Information -->
+    <div class="header">
+        <div class="name">LAZAR MILICEVIC</div>
+        <div class="title">Senior Platform Engineer | Cloud & AI Automation Specialist | WordPress Support Engineer</div>
+        <div class="contact-info">
+            <span>Belgrade, Serbia</span> |
+            <span><a href="tel:+381641213292">+381 64 121 32 92</a></span> |
+            <span><a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a></span>
+            <br>
+            <span><a href="https://linkedin.com/in/lazar-m-919853111">LinkedIn</a></span> |
+            <span><a href="https://github.com/lamingsrb">GitHub</a></span> |
+            <span><a href="https://about-me-fawn-delta.vercel.app/"><strong>→ Portfolio & Live Demos</strong></a></span>
+        </div>
+    </div>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section-title">Professional Summary</div>
+    <div class="summary">
+        <p>WordPress Technical Support Engineer with 10+ years of experience in WordPress themes, WordPress plugins, and WooCommerce development. Strong expertise in HTML, CSS, PHP, and JavaScript with deep understanding of browser console errors and debugging via developer tools. Patient and polite when dealing with support queries via email ticketing systems like HelpScout. Skilled at creating CSS snippets and PHP snippets for customer customizations. Proven track record providing technical support for WordPress products with clear professional written English communication. Previously founded IT services company delivering WordPress development and WooCommerce implementations for 50+ enterprise clients.</p>
+    </div>
+
+    <!-- CORE SKILLS -->
+    <div class="section-title">Core Skills</div>
+    <div class="core-skills">
+        <p><strong>WordPress</strong> | <strong>WordPress Themes</strong> | <strong>WordPress Plugins</strong> | <strong>WooCommerce</strong> | <strong>HTML</strong> | <strong>CSS</strong> | <strong>PHP</strong> | <strong>JavaScript</strong> | <strong>CSS Snippets</strong> | <strong>PHP Snippets</strong> | <strong>Browser Console</strong> | <strong>Developer Tools</strong> | <strong>Debugging</strong> | <strong>HelpScout</strong> | <strong>Email Support</strong> | <strong>Technical Support</strong> | <strong>Bug Reports</strong> | <strong>Feature Requests</strong></p>
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+        <div class="skills-category">
+            <strong>WordPress Development</strong>
+            WordPress | WordPress Themes | WordPress Plugins | WooCommerce | Theme Customization | Plugin Development | Child Themes
+        </div>
+
+        <div class="skills-category">
+            <strong>Frontend Technologies</strong>
+            HTML | CSS | JavaScript | CSS Snippets | Responsive Design | Browser Console | Developer Tools | Debugging
+        </div>
+
+        <div class="skills-category">
+            <strong>Backend Technologies</strong>
+            PHP | PHP Snippets | MySQL | REST APIs | WordPress Hooks | Actions | Filters
+        </div>
+
+        <div class="skills-category">
+            <strong>Support & Tools</strong>
+            HelpScout | Email Support | Zendesk | Bug Reports | Feature Requests | Git | GitHub
+        </div>
+    </div>
+
+    <!-- WORK EXPERIENCE -->
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Platform Engineer & Technical Support</span>
+            <span class="job-date">January 2025 - Present</span>
+        </div>
+        <div class="company">French Biotech Company | Paris, France (Remote)</div>
+        <ul>
+            <li>Provide technical support via email ticketing system, compiling bug reports and recording feature requests</li>
+            <li>Debug technical issues using browser console and developer tools for efficient problem resolution</li>
+            <li>Create custom CSS snippets and automation scripts for platform customizations</li>
+            <li>Maintain patient and polite communication when dealing with support queries from 500+ users</li>
+            <li>Write clear professional documentation in English for technical processes and user guides</li>
+            <li>Collaborate with engineering teams to escalate bug reports and prioritize feature requests</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">IT Support Engineer</span>
+            <span class="job-date">February 2023 - January 2025</span>
+        </div>
+        <div class="company">Gategroup | Zurich, Switzerland (Remote)</div>
+        <ul>
+            <li>Provided enterprise-level technical support via email with clear written English communication</li>
+            <li>Used browser console and developer tools for debugging and troubleshooting web applications</li>
+            <li>Maintained patient and polite approach when dealing with support queries across global offices</li>
+            <li>Compiled detailed bug reports and documented feature requests for development teams</li>
+            <li>Maintained 95%+ SLA compliance through efficient email support workflows</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Senior IT Engineer</span>
+            <span class="job-date">January 2022 - January 2023</span>
+        </div>
+        <div class="company">Customer Success Management Company | Belgrade, Serbia</div>
+        <ul>
+            <li>Delivered technical support for clients using WordPress and WooCommerce platforms</li>
+            <li>Created custom CSS snippets and PHP snippets for client website customizations</li>
+            <li>Debugged WordPress themes and WordPress plugins using browser console and developer tools</li>
+            <li>Provided email support with clear written English for technical issues</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Founder & WordPress Developer</span>
+            <span class="job-date">2014 - 2022</span>
+        </div>
+        <div class="company">IT Services Company | Belgrade, Serbia</div>
+        <ul>
+            <li>Founded IT services company delivering WordPress development for 50+ enterprise clients</li>
+            <li>Built and customized WordPress themes and WordPress plugins for client websites</li>
+            <li>Developed WooCommerce stores with custom PHP snippets and CSS snippets for unique functionality</li>
+            <li>Provided ongoing technical support and email support for WordPress products</li>
+            <li>Created custom HTML, CSS, PHP, and JavaScript solutions for client requirements</li>
+            <li>Used browser console and developer tools for debugging client websites</li>
+            <li>Maintained patient and polite client relationships with clear written English communication</li>
+            <li>Compiled bug reports and feature requests for continuous improvement</li>
+        </ul>
+    </div>
+
+    <!-- KEY PROJECTS -->
+    <div class="section-title">Key Projects</div>
+
+    <div class="project">
+        <span class="project-title">Fakturko - SaaS Invoicing Platform</span>
+        <span class="project-tech">| PHP, JavaScript, CSS, React Native, REST APIs</span>
+        <br>
+        Full-stack SaaS platform with custom frontend using HTML, CSS, and JavaScript. Backend built with PHP and REST APIs. Demonstrates strong debugging skills and developer tools proficiency.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Stylera - Booking Platform</span>
+        <span class="project-tech">| React, TypeScript, CSS, Supabase</span>
+        <br>
+        Full-stack booking platform with custom CSS styling and JavaScript interactivity. Email automation integration. Demonstrates HTML, CSS, and JavaScript expertise with debugging via developer tools.
+    </div>
+
+    <div class="project">
+        <span class="project-title">WordPress Client Websites</span>
+        <span class="project-tech">| WordPress, WooCommerce, PHP, CSS, JavaScript</span>
+        <br>
+        Developed 50+ WordPress sites with custom WordPress themes and WordPress plugins. Created custom CSS snippets and PHP snippets for client customizations. WooCommerce implementations with custom functionality.
+    </div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <div class="section-title">Education and Certifications</div>
+
+    <div class="edu-item">
+        <strong>Bachelor's Degree in Information Technology</strong><br>
+        University of Belgrade | Belgrade, Serbia
+    </div>
+
+    <div class="cert-item">
+        <strong>Certifications:</strong>
+        <ul>
+            <li>AWS Certified Cloud Practitioner - Amazon Web Services</li>
+            <li>Microsoft Azure Fundamentals (AZ-900) - Microsoft</li>
+            <li>ITIL Foundation - IT Service Management</li>
+            <li>Google Analytics Certification - Google</li>
+        </ul>
+    </div>
+
+    <!-- ADDITIONAL INFORMATION -->
+    <div class="section-title">Additional Information</div>
+    <p style="font-size: 10pt;">
+        <strong>Languages:</strong> English (Professional - Clear Written Communication), Serbian (Native)<br>
+        <strong>Location:</strong> Belgrade, Serbia (European Timezone - Available for 1900-2300 UTC coverage)<br>
+        <strong>Work Style:</strong> Patient and polite, high attention to detail, commitment to quality work<br>
+        <strong>Availability:</strong> Available for part-time remote positions (4 hours daily)
+    </p>
+
+    <!-- FOOTER - Contact Info for ATS -->
+    <div class="footer">
+        <strong>Lazar Milicevic</strong> | Belgrade, Serbia | <a href="tel:+381641213292">+381 64 121 32 92</a> | <a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a><br>
+        <a href="https://linkedin.com/in/lazar-m-919853111">LinkedIn</a> | <a href="https://github.com/lamingsrb">GitHub</a> | <a href="https://about-me-fawn-delta.vercel.app/">Portfolio</a>
+    </div>
+
+</body>
+</html>

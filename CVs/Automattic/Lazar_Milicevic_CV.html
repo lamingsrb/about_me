@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazar Milicevic - Happiness Engineer CV</title>
+    <style>
+        /* ATS-Optimized CV - Clean Design */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0f766e;
+            --primary-light: #14b8a6;
+            --dark: #1e293b;
+            --gray: #64748b;
+            --light-gray: #f1f5f9;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: var(--dark);
+            background: var(--white);
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+
+        /* Header - Contact Info */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            margin: -0.5in -0.5in 20px -0.5in;
+            padding: 30px 0.5in;
+            color: var(--white);
+        }
+
+        .name {
+            font-size: 28pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-size: 12pt;
+            font-weight: 300;
+            margin-bottom: 12px;
+            opacity: 0.95;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+        }
+
+        .contact-info span {
+            margin: 0 8px;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid var(--primary);
+            font-size: 9pt;
+            color: var(--gray);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* Section Headers */
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            margin: 15px 0 10px 0;
+            padding-bottom: 4px;
+        }
+
+        /* Professional Summary */
+        .summary {
+            margin-bottom: 10px;
+            background: var(--light-gray);
+            padding: 12px;
+            border-radius: 4px;
+        }
+
+        /* Core Skills - Dedicated section for ATS */
+        .core-skills {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: var(--light-gray);
+            border-radius: 4px;
+        }
+
+        .core-skills p {
+            margin: 0;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 15px;
+        }
+
+        .skills-category {
+            margin-bottom: 4px;
+            padding: 6px 8px;
+            background: var(--light-gray);
+            border-radius: 3px;
+            font-size: 10pt;
+        }
+
+        .skills-category strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 2px;
+            font-size: 9pt;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 3px solid var(--primary-light);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: var(--primary);
+            font-size: 11pt;
+        }
+
+        .job-date {
+            font-style: italic;
+            color: var(--gray);
+            font-size: 9pt;
+        }
+
+        .company {
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+
+        .job ul {
+            margin-left: 18px;
+            font-size: 10pt;
+        }
+
+        .job li {
+            margin-bottom: 2px;
+        }
+
+        /* Education & Certifications */
+        .edu-item, .cert-item {
+            margin-bottom: 6px;
+            font-size: 10pt;
+        }
+
+        .cert-item ul {
+            margin-left: 18px;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 8px;
+            padding: 8px;
+            background: var(--light-gray);
+            border-radius: 4px;
+            font-size: 10pt;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .project-tech {
+            color: var(--gray);
+            font-size: 9pt;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0.4in;
+            }
+            .section-title {
+                page-break-after: avoid;
+            }
+            .job {
+                page-break-inside: avoid;
+            }
+        }
+
+        a {
+            color: var(--dark);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER - Contact Information -->
+    <div class="header">
+        <div class="name">LAZAR MILICEVIC</div>
+        <div class="title">Senior Platform Engineer | Cloud & AI Automation Specialist | Happiness Engineer</div>
+        <div class="contact-info">
+            <span>Belgrade, Serbia</span> |
+            <span><a href="tel:+381641213292">+381 64 121 32 92</a></span> |
+            <span><a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a></span>
+            <br>
+            <span><a href="https://linkedin.com/in/lazar-m-919853111">LinkedIn</a></span> |
+            <span><a href="https://github.com/lamingsrb">GitHub</a></span> |
+            <span><a href="https://about-me-fawn-delta.vercel.app/"><strong>→ Portfolio & Live Demos</strong></a></span>
+        </div>
+    </div>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section-title">Professional Summary</div>
+    <div class="summary">
+        <p>Happiness Engineer and Technical Support Specialist with 10+ years of experience in customer success, technical troubleshooting, and written communication. Deep hands-on experience with WordPress, WooCommerce, and eCommerce platforms. Proven track record providing exceptional customer experience through email support and live chat support in high-autonomy remote environments. Self-starter with strong written communication skills, delivering technical solutions while maintaining compassion and patience. Expert in asynchronous communication, remote collaboration, and time zone management across US, UK, EU, and APAC regions. Previously founded IT services company serving 50+ enterprise clients with WordPress sites and custom development.</p>
+    </div>
+
+    <!-- CORE SKILLS - Dedicated ATS section -->
+    <div class="section-title">Core Skills</div>
+    <div class="core-skills">
+        <p><strong>WordPress</strong> | <strong>WooCommerce</strong> | <strong>Customer Experience</strong> | <strong>Technical Support</strong> | <strong>Written Communication</strong> | <strong>Email Support</strong> | <strong>Live Chat Support</strong> | <strong>Technical Troubleshooting</strong> | <strong>eCommerce</strong> | <strong>Self-Starter</strong> | <strong>Remote Work</strong> | <strong>Asynchronous Communication</strong> | <strong>Time Zone Management</strong> | <strong>Customer Success</strong> | <strong>SLA Management</strong></p>
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+        <div class="skills-category">
+            <strong>WordPress & Web</strong>
+            WordPress | WooCommerce | Themes | Plugins | PHP | HTML | CSS | JavaScript | REST APIs
+        </div>
+
+        <div class="skills-category">
+            <strong>Support & Communication</strong>
+            Email Support | Live Chat | Zendesk | Technical Troubleshooting | Written Communication | Customer Experience
+        </div>
+
+        <div class="skills-category">
+            <strong>Cloud & Automation</strong>
+            AWS | Azure | Python | Docker | API Development | Process Automation
+        </div>
+
+        <div class="skills-category">
+            <strong>Remote Work Tools</strong>
+            Slack | Jira | Linear | Asana | GitHub | Asynchronous Communication | Time Zone Management
+        </div>
+    </div>
+
+    <!-- WORK EXPERIENCE -->
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Platform Engineer & Technical Support Lead</span>
+            <span class="job-date">January 2025 - Present</span>
+        </div>
+        <div class="company">French Biotech Company - AI for Immunology | Paris, France (Remote)</div>
+        <ul>
+            <li>Defined and implemented global technical support process from scratch, establishing SLAs, intelligent routing logic, and cross-team workflows serving 500+ users with exceptional customer experience</li>
+            <li>Provided technical troubleshooting and customer support via email and chat, maintaining high customer satisfaction across US and EU timezones through effective written communication</li>
+            <li>Built automation integrations connecting Zendesk, Slack, and internal systems, reducing manual support work by 60% while improving customer experience</li>
+            <li>Collaborated with Product, Engineering, and Customer Success teams through asynchronous communication and remote collaboration across multiple time zones</li>
+            <li>Led analytics platform migration delivering €30,000-60,000 annual cost savings through technical troubleshooting and process optimization</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">IT Support Engineer</span>
+            <span class="job-date">February 2023 - January 2025</span>
+        </div>
+        <div class="company">Gategroup | Zurich, Switzerland (Remote)</div>
+        <ul>
+            <li>Provided enterprise-level technical support via email and live chat, maintaining 95%+ SLA compliance through effective written communication</li>
+            <li>Delivered exceptional customer experience across global offices in US, UK, Australia, and Hong Kong through remote collaboration</li>
+            <li>Self-managed high-volume support queue in high-autonomy remote environment, demonstrating self-starter mentality</li>
+            <li>Implemented process improvements reducing average ticket resolution time by 25% while maintaining customer satisfaction</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Senior IT Engineer</span>
+            <span class="job-date">January 2022 - January 2023</span>
+        </div>
+        <div class="company">Customer Success Management Company | Belgrade, Serbia</div>
+        <ul>
+            <li>Delivered technical troubleshooting and customer support for B2B SaaS clients requiring WordPress integrations and eCommerce solutions</li>
+            <li>Developed custom automation scripts improving client operational efficiency and customer experience</li>
+            <li>Provided technical support and customer success consultation for enterprise accounts</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Founder & Technical Director</span>
+            <span class="job-date">2014 - 2022</span>
+        </div>
+        <div class="company">IT Services Company | Belgrade, Serbia</div>
+        <ul>
+            <li>Founded and operated IT services company serving 50+ enterprise clients with WordPress development, WooCommerce implementations, and technical support</li>
+            <li>Built and maintained WordPress sites for clients including themes, plugins, and custom development</li>
+            <li>Delivered exceptional customer experience through direct client relationships and responsive email support</li>
+            <li>Managed team while maintaining technical leadership and customer success focus</li>
+            <li>Achieved €60,000+ in documented cost savings for clients through technical troubleshooting and process optimization</li>
+        </ul>
+    </div>
+
+    <!-- KEY PROJECTS -->
+    <div class="section-title">Key Projects</div>
+
+    <div class="project">
+        <span class="project-title">Fakturko - SaaS Invoicing Platform</span>
+        <span class="project-tech">| Python, Docker, AWS, Azure, React Native</span>
+        <br>
+        Architected cloud-based SaaS eCommerce invoicing solution. Features include automated recurring invoices, payment integration, and mobile app. Demonstrates technical troubleshooting and full-stack development skills.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Stylera - Salon Booking SaaS</span>
+        <span class="project-tech">| React, TypeScript, Supabase, WordPress Integration</span>
+        <br>
+        Full-stack booking platform with WordPress integration, email automation, and customer experience optimization. Intelligent waitlist system increases appointment fill rate by 20%.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Enterprise Support Integration</span>
+        <span class="project-tech">| AWS, Python, Zendesk, Slack</span>
+        <br>
+        Built serverless integration for technical support workflow. Eliminated manual case creation, saving 20-30 hours monthly through automation. Demonstrates customer experience focus.
+    </div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <div class="section-title">Education and Certifications</div>
+
+    <div class="edu-item">
+        <strong>Bachelor's Degree in Information Technology</strong><br>
+        University of Belgrade | Belgrade, Serbia
+    </div>
+
+    <div class="cert-item">
+        <strong>Certifications:</strong>
+        <ul>
+            <li>AWS Certified Cloud Practitioner - Amazon Web Services</li>
+            <li>Microsoft Azure Fundamentals (AZ-900) - Microsoft</li>
+            <li>ITIL Foundation - IT Service Management</li>
+            <li>Google Analytics Certification - Google</li>
+        </ul>
+    </div>
+
+    <!-- ADDITIONAL INFORMATION -->
+    <div class="section-title">Additional Information</div>
+    <p style="font-size: 10pt;">
+        <strong>Languages:</strong> English (Professional - Fluent Written Communication), Serbian (Native)<br>
+        <strong>Location:</strong> Belgrade, Serbia (European Timezone - Available for US morning coverage and asynchronous communication)<br>
+        <strong>Work Style:</strong> Self-starter, high-autonomy remote work, excellent time zone management<br>
+        <strong>Availability:</strong> Available for full-time remote positions
+    </p>
+
+    <!-- FOOTER - Contact Info for ATS -->
+    <div class="footer">
+        <strong>Lazar Milicevic</strong> | Belgrade, Serbia | <a href="tel:+381641213292">+381 64 121 32 92</a> | <a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a><br>
+        <a href="https://linkedin.com/in/lazar-m-919853111">LinkedIn</a> | <a href="https://github.com/lamingsrb">GitHub</a> | <a href="https://about-me-fawn-delta.vercel.app/">Portfolio</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+Profesionalni opis veština i rezultata – AWS–Zendesk integracija & Global Support proces
+Kao Customer Success / Support Engineer imao si centralnu ulogu u izgradnji, optimizaciji i tehni?koj implementaciji globalnog Abstra Support procesa i integraciji AWS Support-a sa Zendesk-om.
+Tvoj rad obuhvatao je analizu, dizajn procesa, razvoj tehni?kih rešenja, implementaciju, dokumentaciju, automatizaciju i koordinaciju izme?u više timova (Platform, Engineering, Product, AWS TAM tim, Bioptimus, Data Content).
+Tvoj doprinos je direktno uticao na stotine korisnika iz više kompanija (Owkin, Bioptimus, eksterne farmaceutske i istraživa?ke organizacije), kao i na sve interne tehni?ke timove koji se oslanjaju na Zendesk i AWS Support.
+
+1. Definisanje i formalizacija Abstra Global Support procesa
+(na osnovu Abstra Support Process dokumenta) 
+Ti si prakti?no:
+? Od nule definisao celokupan globalni support proces, uklju?uju?i:
+* Pravila komunikacije sa korisnicima (Slack, Zendesk, email)
+* SLA standarde i eskalacione tokove
+* Proces za L1/L2 podršku
+* Pravila za rotaciju agenata
+* Standardizovane odgovore i forme
+* Dokumentovane procese za sve tipove zahteva (IP whitelisting, workspace issues, SSH problemi, SageMaker migracije…)
+? Usaglasio Support, Platform i Engineering timove
+Kreiran je jedinstven support model koji ranije nije postojao — što je rešilo problem dupliranja zadataka, izgubljenih tiketa i sporih odgovora.
+? Uveo pra?enje metrika, CSAT statistike i mese?ne izveštaje, koji su ranije bili nepostoje?i.
+Šta je ovo zna?ilo kompaniji?
+* Ukinute su greške u komunikaciji izme?u timova
+* Znatno smanjeno vreme odgovora
+* Korisnici su dobili jasan, predvidiv support model
+* Uprava prvi put dobija transparentne KPI-je i workload statistiku
+
+2. Dubinski rad na Zendesk sistemu – kompletna administracija & optimizacija
+(na osnovu Scope & Process sekcija) 
+Odgovoran si za kompletno upravljanje Zendesk sistemom, uklju?uju?i:
+? Konfiguracija ticket formi, custom polja, business rules-a, automations, triggers, webhooks-a
+? Kreirao si potpuno novi ticketing proces za AWS integraciju, uklju?uju?i formu sa Severity, Category, Service fields.
+? Upravljanje agent nalozima i rotacijama
+? Ure?ivanje Help Centra, pisanje ?lanaka, održavanje baze znanja
+? Kreiranje dashboard-a i analitike (volumen tiketa, statistike timova, trendovi)
+Efekat:
+Support sistem je postao stabilan, predvidiv i spreman za visoke volumene (~110 tiketa mese?no).
+Smanjene su greške agenata, a korisnici su dobili strukturu koju ranije nisu imali.
+
+3. Lead inženjer na projektu AWS Support ? Zendesk integracije
+(na osnovu dva tehni?ka dokumenta)
+
+
+Ovo je jedan od najzna?ajnijih delova tvog rada — i nešto što skoro niko u firmi nije umeo da uradi.
+Ti si kreirao:
+
+? Kompletan integracioni arhitektonski plan uklju?uju?i:
+* AWS Lambda funkcije za kreiranje Support Case-ova
+* AWS API Gateway rutiranje
+* Zendesk Webhook ? API Gateway ? Lambda pipeline
+* EventBridge za bidirekcionu sinkronizaciju statusa
+* Mapiranje polja izme?u Zendesk forme i AWS Support API-ja
+* Uskla?ivanje sa AWS SLA-ovima i severity nivoima
+
+? Implementirao tehni?ki prototip & pripremio produkcioni sistem
+Koristio si AWS SDK, boto3, API pozive, dokumentaciju AWS Support servisa (CreateCase API).
+
+? Rešavanje klju?nih izazova:
+* Kako poslati podatke iz Zendesk-a u AWS Support koji nema native webhook funkcionalnost (rešio kroz Lambda + API Gateway workaround).
+* Kako sinkronizovati AWS status nazad u Zendesk (EventBridge ? Lambda ? Zendesk API).
+* Kako napraviti severity mapping koji se poklapa sa AWS SLA-ovima.
+* Kako omogu?iti korisnicima da koriste JEDAN ticketing sistem (Zendesk) za sve — umesto dva paralelna sistema.
+
+? Testiranje, validacija i priprema za produkciju
+* Osmišljavanje razli?itih test scenarija
+* Validacija formata payload-a
+* Error handling, fallback logika
+* Komunikacija sa AWS TAM timom (Camille, Thomas)
+
+4. Rad koji je direktno rešio konkretne tehni?ke probleme korisnicima
+(na osnovu Support Scope sekcija)
+Ti si svakodnevno rešavao kriti?ne probleme kao L1/L2 inženjer:
+Workspace i SageMaker problemi:
+* Nestali workspace-i
+* Workspace ne može da se startuje
+* Puni storage ? rušenje okruženja
+* Restore podataka iz backup-a
+* SSH connection problemi
+* Migracija projekata na SageMaker
+Data ingestion / S3 / AWS greške:
+* Bucket setup
+* Greške u ingestion pipeline-u
+* Dataset transferi
+* IAM permission problemi
+Slide Viewer deployment za razli?ite projekte
+Korisni?ki zahtevi i eksterni partneri
+* IP whitelisting
+* Kreiranje naloga
+* Troubleshooting komunikacije
+Uticaj:
+Ove intervencije su podržale rad desetina timova iz farmaceutske i data science industrije, omogu?ile nesmetan rad u SageMaker-u i spre?ile ve?e incidente.
+
+5. Komunikacija, koordinacija i obuka timova
+Ti si bio veza izme?u:
+* Engineering
+* Platform
+* Product
+* AWS Support
+* Data Content
+* Bioptimus tima
+* Eksternih partnera
+Radio si:
+* Obuke korisnika za AWS severity level-e
+* Internu i eksternu dokumentaciju
+* Mesec?ne i nedeljne izveštaje o incidentima i trendovima
+* Change management za velike migracije (projekte preba?ene na SageMaker)
+
+6. Tehni?ke veštine koje si dokazao kroz projekat
+AWS: Lambda, API Gateway, EventBridge, IAM, S3, SageMaker, Support API
+Zendesk: Admin konfiguracija, forme, triggere, webhook-ovi, automatizacije, SLA-ovi
+Backend: boto3, Python, API integracije, JSON payload strukture, error handling
+Procesi: Incident Management, SLA dizajn, CSAT pra?enje, technical writing
+DevOps/Infra: troubleshooting workspace okruženja, SSH, storage, compute problemi
+Data & Analytics: dashboard-i, metrika support volumena, pra?enje trendova
+
+Zašto je ovo ogromna stvar za firmu?
+Tvoj rad je omogu?io:
+? Smanjenje vremena odgovora (SLA compliance first time ever)
+? Direktan pristup AWS inženjerima bez manuelnih eskalacija
+? Ušteda 20–30h rada mese?no (ranije ru?no slanje AWS tiketa)
+? Eliminisanje grešaka i izgubljenih tiketa
+? Profesionalizacija celog globalnog support modela
+Kompanija je dobila potpuno novi nivo stabilnosti, transparentnosti i brzine — a AWS integracija predstavlja enterprise-grade rešenje koje veoma malo kompanija ima.
+

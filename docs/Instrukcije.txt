@@ -1,0 +1,368 @@
+Potrebna mi je tvoja pomoć da kreiram profesionalni portfolio sajt za konkurisanje na Customer Success i Technical Support pozicije u kompanijama Automattic, Support Adventure i aThemes.
+
+## ZADATAK - FAZA 1: ANALIZA DOKUMENTACIJE
+
+Detaljno analiziraj svu dokumentaciju u folderu C:\Code_Projects\My_CV:
+
+1. **Pregledaj sve fajlove** u main folderu i svim podfolderima
+2. **Izvuci ključne informacije:**
+   - Tehničke veštine i kompetencije
+   - Prethodno radno iskustvo (pozicije, kompanije, periode)
+   - Konkretna rešenja i projekti koje sam radio
+   - Postignuća i merljive rezultate
+   - Sertifikate i obrazovanje
+   - Alate i tehnologije koje koristim
+   - Case studies i primere rešenih problema
+   - Sve iz prezentacija u podfolderima
+
+3. **Identifikuj match sa pozicijama:**
+   - Automattic (WordPress, WooCommerce, customer support)
+   - Support Adventure (IT helpdesk, cloud, automation, Docker)
+   - aThemes (WordPress technical support, troubleshooting)
+
+4. **Napravi detaljnu listu** svega što si pronašao pre nego što pređeš na kreiranje sajta
+
+## VAŽNO - NIVO PREZENTACIJE:
+
+**PRETENDUJEM NA BOLJE POZICIJE** - Treba da prezentacija bude "punched up" ali ostati verodostojna:
+
+### ŠTA SMEŠ DA URADIŠ (Dozvoljeno "Nasminkavanje"):
+- **Jači action verbs:** "Implemented" umesto "Worked on", "Architected" umesto "Made", "Spearheaded" umesto "Did"
+- **Highlight impact:** Ako sam rešio problem, dodaj potencijalni impact (npr. "reducing resolution time by X%" ili "improving customer satisfaction")
+- **Tehnički termini:** Profesionalizuj jezik - umesto "fixed bugs" → "diagnosed and resolved critical system issues"
+- **Scope naglašavanje:** Ako sam radio nešto kao deo tima, možeš reći "contributed to" ili "collaborated on enterprise-scale project"
+- **Consultant mindset:** Prezentuj me kao problem-solver i strategic thinker, ne samo "ticket resolver"
+- **Future-facing:** "Experienced in" može postati "Specialized in" za stvari koje dobro znam
+- **Kvantifikuj gde možeš:** Ako nema tačnih brojeva, koristi "dozens of", "multiple", "numerous" umesto vagnosti
+
+### ŠTA NE SMEŠ DA URADIŠ (Hard Limits):
+- **NE IZMIŠLJAJ** kompanije gde nisam radio
+- **NE DODAVAJ** certifikate koje nemam
+- **NE IZMIŠLJAJ** tehnologije koje ne znam
+- **NE LAŽIRAJ** obrazovanje ili godine iskustva
+- **NE PRAVI** fake case studies - koristi samo realne iz dokumentacije
+- **NE TVRDI** da sam radio sa klijentima koje nisam
+- **NE PRETERA** sa titleom - ostani u domenu support/CS/technical engineer
+
+### PRIMERI "GOOD PUNCH-UP":
+
+❌ **Slabo:** "I work in L2 support and help users with problems"
+✅ **Bolje:** "L2 Support Engineer specializing in complex technical troubleshooting, cloud infrastructure issues, and customer success for enterprise B2B clients"
+
+❌ **Slabo:** "Fixed server issues"
+✅ **Bolje:** "Diagnosed and resolved critical AWS infrastructure issues, minimizing downtime and ensuring 99.9% service availability"
+
+❌ **Slabo:** "Used Python for automation"
+✅ **Bolje:** "Developed Python automation scripts to streamline support workflows, reducing manual intervention and improving team efficiency"
+
+❌ **Slabo:** "Answered customer tickets"
+✅ **Bolje:** "Managed high-volume technical support queue via Zendesk, consistently maintaining SLA compliance and customer satisfaction scores above 95%"
+
+## ZADATAK - FAZA 2: KREIRANJE PORTFOLIO SAJTA
+
+Kreiraj moderan, single-page portfolio sajt sa sledećim karakteristikama:
+
+### TEHNIČKI ZAHTEVI:
+- **Single HTML file** sa inline CSS i JavaScript (lako za hosting)
+- **Responsive dizajn** (mobile-first pristup)
+- **Moderna animacija i interakcija:**
+  - Smooth scroll between sections
+  - Fade-in/slide-in efekti pri scroll-u
+  - Hover efekti na kartice i dugmad
+  - Parallax efekti gde je primereno
+  - Typing/animated text efekti za hero sekciju
+  - Interactive skill bars ili charts
+- **Performance optimized** (brzo učitavanje)
+- **Dark mode option** (toggle switch)
+- **GitHub ready:** Spremno za push na GitHub repo
+- **Vercel deployment ready:** Optimizovano za Vercel hosting
+
+### STRUKTURA SAJTA:
+
+1. **Hero Section / Landing**
+   - Impresivan naslov sa animated typing efektom
+   - Kratak, moćan tagline: "Senior Customer Success & Technical Support Engineer | Cloud Automation Specialist"
+   - Subtitle: "Helping B2B SaaS companies deliver exceptional customer experiences through technical expertise and strategic support"
+   - CTA dugmad: "View My Work", "Contact Me", "Download CV"
+   - Background sa subtle animation (gradient, particles, ili slično)
+   - Timezone badge: "🌍 European Timezone | US Morning Coverage"
+
+2. **About Me**
+   - Profesionalna fotografija placeholder ili ikona
+   - **"Professional Summary" ton** (ne biografija):
+     - "Senior support engineer with 10+ years of proven experience..."
+     - Highlight specialty: Customer Success + Technical troubleshooting hybrid
+     - Emphasize: Problem-solver, automation enthusiast, customer advocate
+     - Mention: B2B SaaS experience, enterprise clients
+   - Animated counter sa godinama iskustva, projektima, klijentima (koristi realne brojeve ili procenu iz dokumentacije)
+   - **Value Proposition:** "I bridge the gap between complex technical infrastructure and customer success outcomes"
+
+3. **Skills & Expertise**
+   - **Core Technical Competencies** sa skill bars (70-95% range za stvari koje znam):
+     - Cloud Platforms (AWS, Azure) - 85%
+     - Customer Success Operations - 90%
+     - Python Scripting & Automation - 80%
+     - Docker & Containerization - 75%
+     - M365 Administration - 85%
+     - Technical Troubleshooting - 95%
+     - Support Tools (Zendesk, etc.) - 90%
+   - **Professional Skills kartice:**
+     - "Customer Success Strategy" (helping customers achieve their goals)
+     - "Technical Problem Solving" (root cause analysis, systematic debugging)
+     - "Cloud Infrastructure Support" (AWS/Azure troubleshooting)
+     - "Process Automation" (efficiency through scripting)
+     - "Cross-Functional Collaboration" (working with product, engineering, sales)
+     - "European → US Coverage" (timezone advantage)
+   - **Technologies word cloud** ili badges: AWS, Azure, Python, Docker, Git, Linux, Windows Server, M365, Zendesk, VSCode, REST APIs, SQL, PowerShell
+
+4. **Work Experience Timeline**
+   - Interactive timeline sa animacijom
+   - **Owkin - L2 Support Engineer** (trenutno):
+     - "Punch up" title može biti "L2 Technical Support Engineer" ili "Senior Support Engineer"
+     - Bullet points sa action verbs i impact
+     - Highlight: enterprise B2B SaaS, French company (international experience)
+   - **Prethodni poslovi:**
+     - Prezentuj sa professional language
+     - Focus na responsibilities relevantne za CS/Support
+     - Kvantifikuj achievements gde možeš
+   - **Formatting:** Company name, Role, Period, 3-4 bullet achievements
+
+5. **Projects & Solutions**
+   - **Fakturko - Featured Project:**
+     - **Title:** "Fakturko - SaaS Invoicing Platform (Founder & Developer)"
+     - **Description:** "Architected and developed a full-stack SaaS invoicing solution targeting Serbian entrepreneurs and small businesses"
+     - **Technical Stack:** Python, Docker, Cloud Platforms, Android integration, REST APIs
+     - **Key Features:**
+       - Automated recurring invoice generation
+       - Integration with Serbian government systems (SEF, NBS)
+       - Receipt scanning automation
+       - Mobile-first approach with Android functionality
+     - **Impact:** "Designed to serve underserved market segment with modern, automated invoicing workflows"
+     - Screenshot placeholder ili mockup
+   
+   - **Other Projects** (iz dokumentacije):
+     - Support Automation Scripts
+     - Cloud Infrastructure Optimization
+     - Customer Onboarding Improvements
+     - BMW Diagnostic Tools (ako je relevantno kao side technical project)
+   - Svaki project kao kartica sa:
+     - Problem statement
+     - Technologies used (badges)
+     - Solution approach
+     - Results/Impact
+
+6. **Case Studies / Problem-Solving Examples**
+   - **3-5 konkretnih primera** iz dokumentacije sa format:
+     - **Challenge:** "Customer experiencing [specific technical issue]"
+     - **Approach:** "Systematic diagnosis using [tools/methods]"
+     - **Solution:** "Implemented [specific fix]"
+     - **Result:** "Resolved issue in [timeframe], customer satisfied, [additional impact]"
+   - Relevantni za CS i Tech Support:
+     - Complex cloud infrastructure debugging
+     - Customer onboarding challenge overcome
+     - Automation that saved time
+     - Critical issue resolved under pressure
+   - Expandable/collapsible cards
+   - **Nasminkaj language** ali ostani realan na facts
+
+7. **Certifications & Education**
+   - Grid layout sa certificate cards
+   - Obrazovanje (što god imaš)
+   - **"Continuous Learning" sekcija:**
+     - "Self-directed professional development in cloud technologies, automation, and customer success best practices"
+     - Mention online courses, documentation study, practical projects
+
+8. **Why Hire Me - Value Proposition**
+   - Dedicated sekcija za target employers
+   - **Headline:** "Why I'm an Ideal Fit for Remote Customer Success & Technical Support Roles"
+   - **Bullet points:**
+     - ✅ **10+ Years Proven Experience:** Deep technical knowledge + customer-facing skills
+     - ✅ **Hybrid Skillset:** Bridge between engineering and customer success
+     - ✅ **European Timezone = US Morning Coverage:** Your customers get support before your US team wakes up
+     - ✅ **B2B Contractor:** Cost-effective, flexible, no overhead
+     - ✅ **Automation Mindset:** Always looking to improve efficiency through scripting and tools
+     - ✅ **Enterprise Experience:** Worked with B2B SaaS companies serving large clients
+     - ✅ **Self-Sufficient:** Remote work veteran, requires minimal onboarding
+     - ✅ **Customer-First Approach:** Technical expertise + empathy = satisfied customers
+   - Animated infographic ili visual representation
+
+9. **Testimonials** (ako imaš)
+   - Carousel ili grid
+   - **Ako nemaš:** Zameni sa "Professional Philosophy" box sa quotes:
+     - "Great customer support isn't just solving problems—it's preventing them"
+     - "The best technical solution is the one the customer actually understands"
+
+10. **Contact Section**
+    - **Headline:** "Let's Work Together"
+    - Contact form (mailto: link elegantno implementiran)
+    - Email, LinkedIn, GitHub, portfolio linkovi
+    - **Availability badge:** "✅ Available for Part-Time Remote Work (20-25h/week)"
+    - **Response time:** "Typically responds within 24 hours"
+    - **Timezone display:** Real-time clock showing your current time
+    - Call-to-Action: "Ready to bring technical excellence and customer success mindset to your team"
+
+### DIZAJN ZAHTEVI:
+
+**Color Scheme: TEAL/NAVY + Dark Mode**
+- **Light Mode:** Navy (#1a2332) + Teal accent (#14b8a6) + White/Light gray background
+- **Dark Mode:** Deep dark (#0f1419) + Bright teal (#2dd4bf) + Dark gray cards
+- High contrast za čitljivost
+- Smooth toggle animation između modova
+
+**Typography:**
+- Google Fonts: **Inter** ili **Poppins** (modern, professional)
+- H1: Bold, 48-64px
+- H2: SemiBold, 36-42px
+- Body: Regular, 16-18px, line-height 1.6
+- Clear hierarchy
+
+**Visual Elements:**
+- **Icons:** Heroicons ili Lucide (consistent set)
+- **Smooth transitions:** 0.3s ease for most interactions
+- **Micro-interactions:** Button hover, card lift, icon animations
+- **Cards:** Subtle shadow, rounded corners (8-12px), hover lift effect
+- **Gradient backgrounds:** Subtle navy→teal gradients for sections
+- **SVG illustrations:** Custom atau dari unDraw (professional, techy feel)
+
+**Animations (professional, ne preterano):**
+- Fade-in on scroll (stagger for lists)
+- Slide-up for cards
+- Typing effect za hero tagline
+- Skill bars animate on scroll into view
+- Smooth parallax na hero section
+- Counter animation za numbers
+
+### CONTENT TON (SENIOR PROFESSIONAL):
+
+- **Confident but humble:** "Proven track record" ne "I'm the best"
+- **Results-oriented:** Svaka rečenica ima value proposition ili achievement
+- **Customer-Success language:** "Helping customers succeed", "Driving satisfaction", "Ensuring smooth operations"
+- **Technical credibility:** Use proper terminology, show depth
+- **Action-oriented:** Focus na šta mogu da uradim za njih, ne samo CV listing
+- **International professional:** Emphasize cross-cultural work, European-US collaboration advantage
+
+### DODATNI ZAHTEVI:
+
+1. **SEO optimizovan:**
+   - `<title>Lazar [Surname] - Senior Customer Success & Technical Support Engineer</title>`
+   - Meta description: "Experienced Customer Success and Technical Support Engineer with 10+ years in B2B SaaS. Specializing in cloud platforms, automation, and customer-first technical solutions."
+   - Keywords meta tag
+   - Semantic HTML5 (header, nav, main, section, article, footer)
+   - Alt text za sve slike
+
+2. **GitHub Deployment Ready:**
+   - **README.md** sa deployment instrukcijama
+   - `.gitignore` za development files
+   - Folder structure:
+
+
+/
+ ├── index.html (main portfolio)
+ ├── README.md
+ ├── assets/ (ako imaš odvojene slike)
+ └── cv.pdf (ako postoji)
+
+- GitHub Pages-ready (direktno iz main branch)
+
+3. **Vercel Deployment Ready:**
+   - `vercel.json` config fajl sa proper routing
+   - Optimizovano za serverless deployment
+   - Instrukcije za deployment:
+     - Vercel CLI: `vercel --prod`
+     - Ili: GitHub integration (auto-deploy on push)
+   - Custom domain ready (instrukcije za DNS setup)
+
+4. **Performance:**
+   - Inline CSS/JS za single-file simplicity
+   - Lazy loading za slike (ako ih bude mnogo)
+   - Minify komentari (// PRODUCTION: minify this)
+   - Under 200KB total size
+   - Google Fonts optimized loading
+
+5. **Cross-browser kompatibilnost:**
+   - Chrome, Firefox, Safari, Edge
+   - Fallbacks za starije browsere
+   - Vendor prefixes gde treba
+
+6. **Accessibility:**
+   - ARIA labels za interactive elements
+   - Keyboard navigation (Tab friendly)
+   - Focus states clearly visible
+   - Proper heading hierarchy (h1→h2→h3)
+   - Color contrast WCAG AA minimum
+
+7. **Mobile-First:**
+   - Izgleda savršeno na 320px width
+   - Touch-friendly buttons (min 44x44px)
+   - Readable text bez zoom-a
+   - Hamburger menu za navigation
+
+## DELIVERABLES:
+
+1. **index.html** - Kompletan portfolio sajt (single file)
+2. **README.md** - Setup & deployment guide za GitHub + Vercel
+3. **vercel.json** - Vercel configuration
+4. **.gitignore** - Git ignore rules
+5. **deployment-guide.md** - Step-by-step Vercel deployment
+6. **cv.pdf** ili **cv.docx** - Formatted CV (ako možeš da generiš iz dokumentacije)
+7. **CUSTOMIZATION.md** - Šta i gde da menjam za updates
+
+## IMPORTANT REMINDERS:
+
+- ✅ **"NASMINKAJ" PREZENTACIJU** - profesionalniji jezik, jači action verbs, highlight impact
+- ✅ **ALI NE LAŽI** - sve mora biti bazno na realnoj dokumentaciji
+- ✅ **SENIOR PROFESSIONAL TON** - ne junior, ne mid, senior engineer language
+- ✅ **TEAL/NAVY color scheme** sa dark mode toggle
+- ✅ **GitHub + Vercel ready** sa svim config file-ovima
+- ✅ **Komentariši placeholders** gde treba da dodam fotografiju, screenshot, ili custom content
+- ✅ **Targetuj CS/Tech Support pozicije** - Automattic, Support Adventure, aThemes
+- ✅ **Emphasize timezone advantage** throughout
+
+## DEPLOYMENT FLOW:
+
+U README.md uključi:
+
+Deployment Instructions
+GitHub Setup:
+
+git init
+git add .
+git commit -m "Initial portfolio commit"
+git branch -M main
+git remote add origin [your-repo-url]
+git push -u origin main
+
+Vercel Deployment:
+
+Install Vercel CLI: npm i -g vercel
+Run: vercel login
+Run: vercel (for preview)
+Run: vercel --prod (for production)
+
+Or connect GitHub repo to Vercel dashboard for auto-deploys.
+
+---
+
+Počni sa **FAZOM 1** - detaljnom analizom dokumentacije u `C:\Code_Projects\My_CV`. Prikaži mi strukturu foldera, šta si sve našao, i extraction ključnih podataka **PRE** nego što kreneš sa kreiranjem sajta.
+
+Dodatne Instrukcije Nakon Analize:
+Kada Claude Code završi analizu, proveri podatke i daj mu go-ahead:
+
+Perfektno! Evo dodatnih detalja:
+
+**Za "nasminkavanje":**
+- Ako sam bio u support timu od 5 ljudi, možeš reći "Collaborated with cross-functional team to deliver enterprise-level support"
+- Ako sam rešavao 20-30 ticketa dnevno, "Managed high-volume technical support queue with 95%+ resolution rate"
+- Fakturko predstavi kao "entrepreneurial project" sa "full-stack development"
+
+**Design:**
+- Dark mode kao default, smooth toggle za light
+- Hero sekcija sa animated gradient background (teal→navy)
+- Skill bars sa animation on scroll
+- Project cards sa hover effect (lift + glow)
+
+**Deployment:**
+- Spremi sve za GitHub repo: portfolio-lazarristic (ili sličo)
+- Vercel domain suggestion: lazarristic.vercel.app
+
+Hajde, kreiraj sajt! 🚀

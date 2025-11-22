@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazar Milicevic - IT Helpdesk Technician CV</title>
+    <style>
+        /* ATS-Optimized CV - Clean Design */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0f766e;
+            --primary-light: #14b8a6;
+            --dark: #1e293b;
+            --gray: #64748b;
+            --light-gray: #f1f5f9;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: var(--dark);
+            background: var(--white);
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+
+        /* Header - Contact Info */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            margin: -0.5in -0.5in 20px -0.5in;
+            padding: 30px 0.5in;
+            color: var(--white);
+        }
+
+        .name {
+            font-size: 28pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-size: 12pt;
+            font-weight: 300;
+            margin-bottom: 12px;
+            opacity: 0.95;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+        }
+
+        .contact-info span {
+            margin: 0 8px;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid var(--primary);
+            font-size: 9pt;
+            color: var(--gray);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* Section Headers */
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            margin: 15px 0 10px 0;
+            padding-bottom: 4px;
+        }
+
+        /* Professional Summary */
+        .summary {
+            margin-bottom: 10px;
+            background: var(--light-gray);
+            padding: 12px;
+            border-radius: 4px;
+        }
+
+        /* Core Skills */
+        .core-skills {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: var(--light-gray);
+            border-radius: 4px;
+        }
+
+        .core-skills p {
+            margin: 0;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 15px;
+        }
+
+        .skills-category {
+            margin-bottom: 4px;
+            padding: 6px 8px;
+            background: var(--light-gray);
+            border-radius: 3px;
+            font-size: 10pt;
+        }
+
+        .skills-category strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 2px;
+            font-size: 9pt;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 3px solid var(--primary-light);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: var(--primary);
+            font-size: 11pt;
+        }
+
+        .job-date {
+            font-style: italic;
+            color: var(--gray);
+            font-size: 9pt;
+        }
+
+        .company {
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+
+        .job ul {
+            margin-left: 18px;
+            font-size: 10pt;
+        }
+
+        .job li {
+            margin-bottom: 2px;
+        }
+
+        /* Education & Certifications */
+        .edu-item, .cert-item {
+            margin-bottom: 6px;
+            font-size: 10pt;
+        }
+
+        .cert-item ul {
+            margin-left: 18px;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 8px;
+            padding: 8px;
+            background: var(--light-gray);
+            border-radius: 4px;
+            font-size: 10pt;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .project-tech {
+            color: var(--gray);
+            font-size: 9pt;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0.4in;
+            }
+            .section-title {
+                page-break-after: avoid;
+            }
+            .job {
+                page-break-inside: avoid;
+            }
+        }
+
+        a {
+            color: var(--dark);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER - Contact Information -->
+    <div class="header">
+        <div class="name">LAZAR MILICEVIC</div>
+        <div class="title">Senior Platform Engineer | Cloud & AI Automation Specialist | IT Helpdesk Technician</div>
+        <div class="contact-info">
+            <span>Belgrade, Serbia</span> |
+            <span><a href="tel:+381641213292">+381 64 121 32 92</a></span> |
+            <span><a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a></span>
+            <br>
+            <span><a href="https://linkedin.com/in/lazar-m-919853111">LinkedIn</a></span> |
+            <span><a href="https://github.com/lamingsrb">GitHub</a></span> |
+            <span><a href="https://about-me-fawn-delta.vercel.app/"><strong>→ Portfolio & Live Demos</strong></a></span>
+        </div>
+    </div>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section-title">Professional Summary</div>
+    <div class="summary">
+        <p>IT Helpdesk Technician with 10+ years of experience in remote desktop support, Microsoft Windows troubleshooting, and MSP (Managed Service Provider) environments. Expert in Windows Server, Microsoft Office 365, and network infrastructure including Cisco and SonicWall technologies. Proven track record providing technical support via ticketing systems with excellent time management skills and self-discipline. Strong background in remote IT support across multiple time zones with stable internet connection and professional home office setup. Experienced in continuous learning, problem-solving, and emergency response for IT issues. Previously founded IT services company serving 50+ enterprise clients with managed services and infrastructure support.</p>
+    </div>
+
+    <!-- CORE SKILLS -->
+    <div class="section-title">Core Skills</div>
+    <div class="core-skills">
+        <p><strong>Microsoft Windows</strong> | <strong>Windows Server</strong> | <strong>Remote Desktop Support</strong> | <strong>IT Support</strong> | <strong>MSP</strong> | <strong>Helpdesk</strong> | <strong>Ticketing Systems</strong> | <strong>Active Directory</strong> | <strong>Microsoft Office 365</strong> | <strong>Network Troubleshooting</strong> | <strong>Cisco</strong> | <strong>SonicWall</strong> | <strong>Time Management</strong> | <strong>Self-Discipline</strong> | <strong>Problem-Solving</strong> | <strong>Remote Work</strong> | <strong>Time Zone Management</strong></p>
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+        <div class="skills-category">
+            <strong>Operating Systems</strong>
+            Microsoft Windows 10/11 | Windows Server 2016/2019/2022 | macOS | Linux | Remote Desktop Support
+        </div>
+
+        <div class="skills-category">
+            <strong>Microsoft Technologies</strong>
+            Active Directory | Microsoft Office 365 | Azure AD | Exchange | SharePoint | Teams | PowerShell
+        </div>
+
+        <div class="skills-category">
+            <strong>Networking</strong>
+            TCP/IP | DNS | DHCP | VPN | Cisco | SonicWall | Network Troubleshooting | Firewall Configuration
+        </div>
+
+        <div class="skills-category">
+            <strong>Support Tools</strong>
+            Ticketing Systems | Zendesk | Jira | Remote Desktop | TeamViewer | ConnectWise | Autotask
+        </div>
+
+        <div class="skills-category">
+            <strong>Cloud & Virtualization</strong>
+            AWS | Azure | VMware | Hyper-V | Docker | Cloud Migrations
+        </div>
+
+        <div class="skills-category">
+            <strong>Remote Work Skills</strong>
+            Time Management | Self-Discipline | Asynchronous Communication | Time Zone Management | Problem-Solving
+        </div>
+    </div>
+
+    <!-- WORK EXPERIENCE -->
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Platform Engineer & IT Support Lead</span>
+            <span class="job-date">January 2025 - Present</span>
+        </div>
+        <div class="company">French Biotech Company | Paris, France (Remote)</div>
+        <ul>
+            <li>Provide remote desktop support and IT support for 500+ users across Microsoft Windows and macOS environments</li>
+            <li>Manage ticketing system workflows, establishing SLAs and intelligent routing for efficient problem-solving</li>
+            <li>Deliver technical support via remote desktop support tools across US and EU time zones with excellent time management</li>
+            <li>Built automation integrations connecting support platforms, reducing manual IT support work by 60%</li>
+            <li>Demonstrate self-discipline and continuous learning in high-autonomy remote work environment</li>
+            <li>Collaborate with teams through asynchronous communication and time zone management</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">IT Workplace L2 Engineer</span>
+            <span class="job-date">February 2023 - January 2025</span>
+        </div>
+        <div class="company">Gategroup | Zurich, Switzerland (Remote)</div>
+        <ul>
+            <li>Provided enterprise-level remote desktop support for Microsoft Windows environments across global offices</li>
+            <li>Managed high-volume ticketing system queue maintaining 95%+ SLA compliance through excellent time management</li>
+            <li>Delivered IT support for Windows Server, Active Directory, and Microsoft Office 365 issues</li>
+            <li>Supported network troubleshooting including VPN, firewall, and connectivity issues</li>
+            <li>Collaborated with international teams across US, UK, Australia, and Hong Kong time zones</li>
+            <li>Demonstrated self-discipline and problem-solving in remote work environment</li>
+            <li>Implemented process improvements reducing average ticket resolution time by 25%</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Senior IT Engineer</span>
+            <span class="job-date">January 2022 - January 2023</span>
+        </div>
+        <div class="company">Customer Success Management Company | Belgrade, Serbia</div>
+        <ul>
+            <li>Delivered remote desktop support and IT support for B2B SaaS clients</li>
+            <li>Provided technical support for Microsoft Windows, Windows Server, and network infrastructure</li>
+            <li>Developed automation scripts using PowerShell improving operational efficiency</li>
+            <li>Performed network troubleshooting and system maintenance</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Founder & Technical Director</span>
+            <span class="job-date">2014 - 2022</span>
+        </div>
+        <div class="company">IT Services Company (MSP) | Belgrade, Serbia</div>
+        <ul>
+            <li>Founded and operated MSP serving 50+ enterprise clients with managed services, IT support, and infrastructure support</li>
+            <li>Provided remote desktop support for Microsoft Windows, Windows Server, and network infrastructure</li>
+            <li>Managed Active Directory, Microsoft Office 365, and cloud migrations (AWS/Azure)</li>
+            <li>Configured and maintained network equipment including Cisco routers and SonicWall firewalls</li>
+            <li>Delivered emergency response for critical IT issues with 24/7 availability</li>
+            <li>Built and managed team of technicians while maintaining direct client relationships</li>
+            <li>Achieved €60,000+ in documented cost savings through infrastructure optimization and problem-solving</li>
+        </ul>
+    </div>
+
+    <!-- KEY PROJECTS -->
+    <div class="section-title">Key Projects</div>
+
+    <div class="project">
+        <span class="project-title">Enterprise Support Automation</span>
+        <span class="project-tech">| AWS, Python, Zendesk, Slack</span>
+        <br>
+        Built serverless integration for IT support workflow automation. Eliminated manual case creation, saving 20-30 hours monthly. Demonstrates problem-solving and continuous learning.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Multi-Client MSP Infrastructure</span>
+        <span class="project-tech">| Windows Server, Active Directory, Cisco, SonicWall</span>
+        <br>
+        Designed and maintained network infrastructure for 50+ enterprise clients including Microsoft Windows environments, remote desktop support systems, and security configurations.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Cloud Migration Projects</span>
+        <span class="project-tech">| AWS, Azure, Microsoft Office 365, VMware</span>
+        <br>
+        Led cloud migrations from on-premises Windows Server environments to AWS and Azure. Implemented Microsoft Office 365 deployments with minimal downtime.
+    </div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <div class="section-title">Education and Certifications</div>
+
+    <div class="edu-item">
+        <strong>Bachelor's Degree in Information Technology</strong><br>
+        University of Belgrade | Belgrade, Serbia
+    </div>
+
+    <div class="cert-item">
+        <strong>Certifications:</strong>
+        <ul>
+            <li>AWS Certified Cloud Practitioner - Amazon Web Services</li>
+            <li>Microsoft Azure Fundamentals (AZ-900) - Microsoft</li>
+            <li>ITIL Foundation - IT Service Management</li>
+            <li>Google Analytics Certification - Google</li>
+        </ul>
+    </div>
+
+    <!-- ADDITIONAL INFORMATION -->
+    <div class="section-title">Additional Information</div>
+    <p style="font-size: 10pt;">
+        <strong>Languages:</strong> English (Professional), Serbian (Native)<br>
+        <strong>Location:</strong> Belgrade, Serbia (European Timezone - Flexible for US/UK time zone coverage)<br>
+        <strong>Remote Setup:</strong> Stable internet connection, quality headset with noise cancellation, professional home office<br>
+        <strong>Work Style:</strong> Self-discipline, excellent time management, continuous learning mindset<br>
+        <strong>Availability:</strong> Available for full-time remote positions
+    </p>
+
+    <!-- FOOTER - Contact Info for ATS -->
+    <div class="footer">
+        <strong>Lazar Milicevic</strong> | Belgrade, Serbia | <a href="tel:+381641213292">+381 64 121 32 92</a> | <a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a><br>
+        <a href="https://linkedin.com/in/lazar-m-919853111">LinkedIn</a> | <a href="https://github.com/lamingsrb">GitHub</a> | <a href="https://about-me-fawn-delta.vercel.app/">Portfolio</a>
+    </div>
+
+</body>
+</html>

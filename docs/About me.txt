@@ -1,0 +1,143 @@
+Lazar Milicevic
+Lazar Milicevic IT Engineer
+IT Engineer
+IT professional with 10 years' experience. Passion for IT combined with a desire for knowledge + persistence, makes me who I am.
+
+So, what have I learned so far?
+
+Here are some tools and technologies I have utilized:
+Development and Automation:
+Python (for scripting and automation)
+OpenAI API (for AI-based tasks)
+Visual Studio Code (for code editing and development)
+Git (for version control)
+GitHub (for code collaboration and hosting)
+Make (for building projects)
+PowerShell (for scripting and automation on Windows)
+Terminal (for script execution and command-line operations)
+Command prompt (for Windows-related tasks)
+Various libraries and frameworks for automation and scripting
+Cloud and Virtualization:
+Microsoft Azure AD Admin portal (for cloud-based administration)
+Microsoft Intune Endpoint Admin console (for device management)
+Microsoft Hyper-V Virtualization software
+VMware (for virtualization)
+VirtualBox (for virtualization)
+Productivity and Collaboration:
+Microsoft 365 Admin tools (for cloud-based administration)
+Microsoft Exchange Online Admin console (for email administration)
+Microsoft 365 Suite (Word, Excel, Teams, OneNote, etc.)
+Microsoft Word (for client communication)
+Microsoft Teams (for team communication)
+Asana (for project management)
+Jira (for issue tracking and project management)
+ServiceNow (for IT service management)
+Zendesk, Trello (for project management and ticketing)
+System Management and Troubleshooting:
+Windows Troubleshooting techniques
+IT support resources
+Networking tools for system integration
+Terminal-based tools for Linux system management
+Kali Linux, Ubuntu (for server management and testing)
+FreeNas Servers
+Media Production and Editing:
+GIF generation tools
+Video editing software (e.g., Adobe Premiere Pro)
+Additional Tools:
+Android Studio (for mobile app development)
+Smart Deploy software (for system deployment)
+Webhook (for triggering automated actions)
+SmartHome solutions
+Mining machines
+And so on...
+
+Experience- Creative Solutions - Examples
+
+Making company work more efficient with my solutions
+
+DevOps/Automatization/Python/AI
+
+Problem:
+-> EcomlyAds marketing agency faced significant manual work in handling new orders and processing them efficiently.
+-> Orders received via their WordPress site only contained basic client information, insufficient for crafting the desired Video Ads.
+Before:
+-> Receive order via WordPress site.
+-> Email containing client details.
+-> Manual client contact for order specifics.
+-> Forward details to video editors.
+-> Send client link to the created video.
+After:
+-> Client receives an automatic popup form during purchase to input order details.
+-> Submitted details are automatically emailed to the Agency.
+-> Webhook triggers a Python script on a virtual machine, notifying the agency's team via a WP group of the new order.
+-> Automatically creates a new task in Asana, assigning it to the editor with all necessary order information.
+-> Upon video completion, the editor uploads it to a Dropbox folder.
+-> Another script detects the upload and generates GIFs, ad copies, and marketing bonuses using OpenAI API and related libraries.
+Result:
+-> Automation reduced manual work by 90%, leading to increased client satisfaction due to faster order processing and additional value beyond the ordered video.
+This is just a simple example of applying creative problem-solving thinking, which I thoroughly enjoy and am passionate about.
+
+Networking
+
+Problem:
+-> A company with over 100 employees and more than 500 devices in its network is experiencing an interruption of internet service. A wide range of equipment (IP cameras, access control systems, computers, NAS servers, etc.) was affected.
+-> The nation's largest seller of computer equipment cannot operate across the entire country due to service downtimes, resulting in significant financial losses on a daily basis and dissatisfied customers.
+My Solution:
+-> Complete network diagnostics revealed multiple routers with DHCP Service enabled, active in the same network.
+-> Removed all routers except the main one, eliminating unnecessary routers and replacing them with suitable switches.
+-> Scanned the network for inactive devices.
+-> Removed all reserved IP addresses from inactive devices.
+-> Reserved IP addresses on the main router for all critical systems in the network.
+-> Established stable Internet connectivity and network operation for all devices.
+-> As a result, the 3G Company continued to operate and avoided huge losses.
+
+Microsoft 365 / Azure
+
+Some of my previous roles:
+System Administration and Infrastructure Management:
+-> Maintenance of Azure AD environments and Group Policies
+-> Deployment of infrastructure improvements
+-> Working with end-users and vendors to provide support
+-> Blocking spam emails and managing IP addresses for the entire tenant
+-> Email tracing and investigating various Microsoft security reports
+-> Enabling Multi-Factor Authentication (MFA) and Self-Service Password Reset (SSPR) for our tenant
+-> Creating procedures for termination of old accounts while retaining user data on our SharePoint site
+-> Adding, deleting, and managing users in Microsoft 365
+-> Deploying apps, policies, and conditional access through Microsoft Intune
+-> Leading initiatives for researching and deploying new software
+-> Creating documentation and standard operating procedures (SOPs) for various administrative tasks
+-> Conducting regular audits and assessments of IT systems to ensure compliance and security
+-> Troubleshooting and resolving technical issues related to Azure AD, Microsoft 365, and other client applications
+-> Collaborating with cross-functional teams to implement and optimize IT solutions
+-> Participating in disaster recovery planning and execution
+-> Providing training and guidance to colleagues and end-users on IT best practices and tools
+Microsoft 365 Administration:
+-> Working with all Microsoft 365 Admin centers
+-> Creating custom admin roles using PowerShell
+-> Creating various instruction files based on experience for new employees and end-users
+-> Owning all projects with full responsibility
+And much more...
+
+Free time projects
+
+Doing something with love makes you active by nature. :)
+-> Over 10 Python projects in Github
+-> Automatizations with Python, VM Machines, VMware host etc.
+-> Microsoft 365 Test Environment
+-> Building and Management FreeNas Servers
+-> Building and Management Mining systems
+-> Arduino keyboard emulators
+-> Ruby And Rails projects
+-> WordPress Websites
+-> Shopify Websites
+-> Smart Home with EweLink equipment
+-> Access Control projects
+-> IP Video surveillance
+-> Paradox, Eldes Alarm system
+
+
+Don't hesitate to ask for more
+
+In this ever-evolving field, there is always room for learning. However, to consistently acquire new knowledge, you must have a passion for it. Count me in!
+My contact info:
+

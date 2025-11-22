@@ -1,0 +1,104 @@
+
+?? Profesionalni opis tvojih veština i konkretnih doprinosa na projektu Owkin K
+U okviru projekta Owkin K, prvog AGI sistema fokusiranog na razumevanje imunog sistema i ubrzanje biomedicinskih otkri?a, obavljao si širok spektar zadataka koji su kombinovali inženjering, analitiku, automatizaciju, UX poboljšanja, operativni rad i kvalitetnu komunikaciju izme?u timova.
+Tvoj doprinos je bio izuzetno vredan zato što su problemi koje si rešavao direktno uticali na:
+* efikasnost tima,
+* kvalitet podataka,
+* brzinu istraživa?kog procesa,
+* stabilnost operativnih sistema,
+* mogu?nost pra?enja korisnika i optimizacije konverzija,
+* interni workflow svih timova koji koriste Owkin K.
+U nastavku je precizan pregled svih stvari koje si radio — jasno, merljivo i prikazano tako da drugi poslodavci odmah razumeju tvoju vrednost.
+
+1. Tehni?ka ekspertiza i razvoj alata
+? Izrada prilago?enih Python skripti za operativnu efikasnost
+* Razvio si skripte koje automatski proveravaju korisni?ke akcije (signup, signup confirmation, engagement u chatu).
+* Automatizovao si uvid u ponašanje korisnika iz razli?itih izvora (HubSpot ? Owkin K ? Event logs) ?ime si zna?ajno ubrzao analitiku za Growth, Product i Data tim.
+Koji je problem to rešilo:
+Pre tvoje skripte, proveravanje aktivnosti korisnika je ra?eno ru?no, što je trošilo resurse i pravilo greške. Tvoja skripta je omogu?ila:
+* brže donošenje odluka,
+* brži uvid u konverzije,
+* preciznije targetiranje korisnika.
+Ko je imao korist: Growth, Product, Marketing, a i Data Engineering.
+
+2. Dubinska analiza korisni?kih signala i optimizacija konverzija
+? Obrada signup_confirmed_successful i user activity signala
+Rad na metrici “signup_confirmed_successful” bio je klju?an za pra?enje realne aktivacije korisnika.
+Tvoj rad je omogu?io timovima da po prvi put imaju centralizovan i pouzdan izveštaj o:
+* ko je završio registraciju,
+* kada su to uradili,
+* da li su kasnije bili aktivni,
+* koliko puta su koristili chat alat.
+Zašto je važno:
+Precizni signup podaci su jedna od klju?nih metrika u pitch deck-u Owkin K, uklju?uju?i i zvani?ne dokumente (npr. Owkin K User Guide ).
+
+3. Unapre?enje proizvoda i korisni?kog iskustva
+? Poboljšanje UX logike kroz integraciju alata
+Pomagao si u operativnoj analizi na?ina na koji korisnici koriste Owkin K alatset (dot plotovi, box plotovi, Kaplan-Meier grafikoni, literature review agenti itd. ).
+Na osnovu podataka koje si izvla?io:
+* predlagao si UX poboljšanja,
+* identifikovao si ta?ke gde korisnici odustaju,
+* detektovao si bagove u korisni?kom toku.
+Efekat:
+Zna?ajno pove?anje jasno?e u tome kako realni korisnici koriste Owkin K i šta im je najpotrebnije.
+
+4. Komunikacija izme?u timova & cross-team koordinacija
+? Povezivanje Product, Data, Support i Growth timova
+Tvoja sposobnost da:
+* razumeš tehni?ki problem,
+* objasniš ga jednostavno,
+* i prona?eš pravi tim za rešavanje,
+bila je klju?na.
+?esto si prenosio kontekst izme?u timova, pripremao jasne rezimee, predlagao rešenja i gurao taskove do završetka.
+Efekat:
+Smanjena je fragmentacija izme?u timova i ubrzano rešavanje problema.
+
+5. Ticket menadžment i optimizacija Zendesk procesa
+? Postavljanje automatizacija i pravila za Support tim
+Implementirao si pravila u Zendesk-u za:
+* auto-solved posle 7–10 dana,
+* bolje kategorizovanje tiketa,
+* automatsku dodjelu,
+* optimizaciju statusa “pending”.
+Ko je imao korist:
+IT Platform, Support, Product.
+Rezultat:
+Brže zatvaranje tiketa i precizniji metrics reporting.
+
+6. Upravljanje licencama i optimizacija troškova
+? Lociranje slobodnih licenci pregledom suspendovanih usera
+Našao si dodatne agent licence rigoroznim ru?nim i automatskim pregledom svih suspendovanih naloga.
+Efekat:
+Direktna finansijska ušteda i bolja alokacija resursa.
+
+7. Bezbednost i sistemske integracije
+? Rad na whitelisting zahtevima, pristupima, API integracijama
+Radio si na zahtevima za pristup bazama, API endpointovima, sigurnosnim pravilima i usaglašavanju sa IT Platform timom.
+
+8. Rad na FullStory ? Owkin odnosima i rešavanje problema oko renewal-a
+U?estvovao si u komunikaciji sa FullStory-jem oko renewal problema, analizirao istoriju obaveštenja, pripremio profesionalne odgovore i updejte za Linear task.
+Efekat:
+Profesionalno vo?ena komunikacija i zaštita interesa kompanije.
+
+9. Rad na brend materijalima i sadržaju u skladu sa Owkin K vizuelnim smernicama
+Koristio si Owkin K brand guidelines za:
+* kreiranje internih materijala,
+* pripremu pitch sadržaja,
+* stilizovanje poruka i komunikacije sa partnerima (npr. koriš?enje boja, ton of voice, vizuelne komponente iz brand dokumenta ).
+
+10. Visokonivo razumijevanje proizvoda (Owkin K platforme)
+Razumeo si i aktivno tuma?io sve glavne komponente Owkin K sistema:
+* LLM alati za analizu i vizualizaciju bio-med podataka
+(ScDotPlot, UMAP, Cell Proportion Plot, Kaplan-Meier, Literature agents…)
+* Owkin K misiju — razvoj AGI-ja za imuni sistem
+* Viziju i 5-godišnju roadmap strukturu
+(od data integration ? agent community ? automatizovani eksperimenti ? nau?ne prekretnice)
+Ovo ti daje ogromnu vrednost pred firmama u AI/biotech sektoru.
+
+?? Zaklju?ak — Kako se ovo prezentuje drugim firmama?
+Možeš da kažeš:
+„Na projektu Owkin K bio sam jedan od klju?nih operativnih i tehni?kih ?lanova koji su povezivali Product, Support, Data i Growth timove.
+Razvio sam automatizacije, skripte i procese koji su direktno pove?ali efikasnost, smanjili manuelni rad i omogu?ili bolje razumevanje korisnika.
+Rešavao sam tehni?ke probleme, optimizovao interne tokove, upravljao tiketima i unapre?ivao proces pra?enja korisni?kih aktivnosti.
+Moj rad je imao direktan uticaj na preko 5 internih timova i veliki broj korisnika platforme.“
+

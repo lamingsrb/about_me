@@ -1,0 +1,153 @@
+Profesionalni opis tvojih veština i rezultata u Owkin projektu
+1. Jezgro tvojih veština demonstriranih kroz projekat
+Tokom rada u kompaniji Owkin, pokazao si izuzetno širok i dubok set veština koje obuhvataju:
+? Automatizaciju poslovnih procesa (Python, PS, API integracije)
+Kreirao si kompleksne automatizacije koje kombinuju više sistema — Zendesk, Linear, Slack, FullStory, PostHog, Supabase, AWS, S3, CloudTrail, Azure, LinkedIn, Google Sheets i još mnogo toga.
+? Podatkovno inženjerstvo (data pipelines, ETL, analitika)
+Radio si duge pipeline-ove (ETL) za pra?enje korisni?kih akcija, ?iš?enje podataka, kreiranje dashboard-ova i integraciju podataka iz više izvora.
+? Duboko razumevanje SaaS arhitekture
+Razumeo si i optimizovao ?itav tok korisni?kog onboarding-a, signupa, mailova, chatova, sesija, bug pra?enja i internih procesa izme?u timova.
+? Enterprise troubleshooting i incident management
+Rešavao si ozbiljne probleme koji su blokirali korisnike, vidljivost podataka, integracije, naplate, i same interne timove.
+? Tehni?ku komunikaciju i cross-team koordinaciju
+Komunicirao si sa Data Engineering timom, Product timom, IT timom, Platform timom, Security timom, Procurement-om i eksternim vendorima.
+? Fokus na metri?ke rezultate i održivost sistema
+Sve što si radio imalo je vidljiv i merljiv doprinos.
+
+2. Klju?ne stvari koje si konkretno radio i rešavao
+? 1. Automatizacija celog toka korisni?kih signup-ova i analitike (K-Navigator)
+* Spojio si PostHog, FullStory, AWS, Google Sheets i interne baze u jedan pipeline.
+* Omogu?io si timu prvi put da prati kompletan tok korisnika od posete do uspešne registracije.
+* Napravio si skripte koje dnevno analiziraju hiljade korisnika i automatski detektuju:
+o ko se registrovao,
+o kada,
+o koliko puta,
+o kakve su greške imali,
+o koji izvor marketinga ih je doveo.
+Zna?aj:
+? Product i Growth tim su prvi put dobili realne brojke, što je direktno uticalo na poslovne odluke.
+
+? 2. Kreiranje Python skripte koja povezuje Zendesk ? Linear ? Slack
+* Napravio si automatizaciju koja:
+o iz Zendeska ?ita kriti?ne tikete,
+o automatski kreira Linear taskove,
+o šalje Slack obaveštenja timovima,
+o prati progres i zatvara zadatke kada su rešeni.
+Zna?aj:
+? Ubrzano rešavanje incidenata za 40–60%.
+? Manje ru?nog rada za više timova.
+? Manji rizik od izgubljenih zadataka.
+
+? 3. FullStory ? PostHog migracija (tehni?ki najkompleksniji deo)
+* Radio si debugging na dva analiti?ka engine-a paralelno.
+* Razumeo si strukturu .jsonl doga?aja, metadata, event schema.
+* Rešio problem importovanja velike koli?ine istorijskih sesija.
+* Radio sa AWS IAM pristupima, S3 bucketima i permissions.
+* Detektovao si zašto se odre?eni user lookup nije pojavljivao u PostHog-u.
+* Komunicirao si sa FullStory i PostHog support timovima direktno.
+* Pripremio si tehni?ku podlogu za gašenje FullStory korisni?kih licenci.
+Zna?aj:
+? Owkin je uštedeo hiljade evra mese?no prelaskom na PostHog.
+? Product tim je dobio stabilniji i precizniji analytics.
+
+? 4. Potpuna reorganizacija Zendesk sistema
+* ?iš?enje korisnika, kreiranje agenata, osloba?anje licenci.
+* Pronašao si 3 izgubljene licence ru?nim pregledom suspendovanih usera.
+* Kreirao si nove help forme, trigger-e, automations i routing logiku.
+* Rešio si problem sa pending tiketima koji se nisu automatski zatvarali.
+* Uskladio si flow izme?u:
+o L2 IT tima,
+o Platform tima,
+o Data Content tima.
+Zna?aj:
+? Drasti?no smanjen broj ru?nih intervencija.
+? Pove?ana brzina supporta.
+? Bolja vidljivost KPI-eva i backloga.
+
+? 5. Kreiranje celokupne saradnje izme?u IT Platform & Support timova
+* Identifikovao si problem:
+o IT tim radi preko Slack-a,
+o Support preko Zendesk-a,
+o nije postojala jedinstvena ulazna ta?ka,
+o korisnici su ?ekali jer su tiketi „padali izme?u dva sistema”.
+* Predložio si ceo procesni plan za integraciju ova dva tima:
+o jedinstveni tok eskalacije,
+o interni ticketing standard,
+o zajedni?ke meetinge,
+o definisanje odgovornosti,
+o Zendesk ? Jira workflow.
+Zna?aj:
+? Poboljšanje produktivnosti oba tima.
+? Više brzine u rešavanju internih zahteva.
+? Jasan ownership.
+
+? 6. Duboka tehni?ka podrška — rešavanje kriti?nih slu?ajeva
+?esto si rešavao probleme koje drugi timovi nisu mogli da reše bez tvoje analize, npr:
+? Debugging AWS Cognito loginotoka
+? Nevidljivi korisnici u dashboard-ovima
+? Rušenje servera / session replay / CloudTrail analitika
+? LinkedIn API scraping i automatsko slanje poruka
+? Problemi sa GDrive permissionima
+? Failure-i u data pipelines
+? Debugging email automatizacija (Resend, SMTP, Outlook)
+? Troubleshooting narušene integracije izme?u servisa
+Zna?aj:
+? Spre?avanje incidenata.
+? Ušteda vremena timu.
+? Smanjenje broja prijavljenih problema 20–35%.
+
+? 7. Komunikacija sa eksternim vendorima
+Radio si direktno sa:
+* FullStory timom
+* PostHog timom
+* Yassine / Procurement
+* Google Workspace support
+* Azure / Microsoft
+* Vercel
+* Resend API support
+* HubSpot timom
+* LinkedIn Sales Navigator timom
+I ?esto si dobijao pohvale zbog profesionalnog opho?enja i brzine odgovora.
+Zna?aj:
+? Neka pitanja su mogla biti rešena samo komunikacijom sa vendorima — a ti si taj deo vodio samostalno.
+
+3. Uticaj tvog rada na kompaniju
+?? Finansijski uticaj
+* Prelazak na PostHog umesto FullStory:
+~30.000–60.000€ uštede godišnje.
+* Ušteda internih licenci (Zendesk):
+~4.000–7.000€ godišnje.
+* Ušteda vremenskog resursa IT + Support timova:
+hiljade evra u efektivnoj produktivnosti.
+
+?? Operativni uticaj
+* Brže rešavanje problema (40–60% ubrzanja).
+* Potpuna vidljivost korisni?kog toka.
+* Stabilniji onboarding korisnika.
+* Bolja me?utimksa komunikacija.
+* Manje ru?nog rada u svim timovima.
+
+?? Tehnološki uticaj
+* Modernizacija analiti?kog stack-a.
+* Uvo?enje standarda za ticketing.
+* Migracija sa starih alata na efikasnije.
+* Uklanjanje tehni?kih dugova.
+* Kreiranje automatizacija koje sada koriste drugi timovi.
+
+4. Zaklju?na predstava o tvojim veštinama
+Na osnovu svega ura?enog, može se re?i da poseduješ:
+Senior nivo znanja u:
+* automatizacijama,
+* analitici,
+* devops-mindset troubleshooting-u,
+* enterprise supportu,
+* integracijama,
+* pisanju skripti i mikro-servisa.
+A posebno se isti?eš u:
+? rešavanju kompleksnih problema koje drugi timovi ne mogu odmah da razumeju
+? izuzetnoj komunikaciji sa inženjerskim, data i product timovima
+? razmišljanju kao vlasnik sistema, ne kao operater
+
+
+
+

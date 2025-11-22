@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazar Milicevic - Platform Engineer CV</title>
+    <style>
+        /* ATS-Optimized CV - Modern Design with Color */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0f766e;
+            --primary-light: #14b8a6;
+            --dark: #1e293b;
+            --gray: #64748b;
+            --light-gray: #f1f5f9;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: var(--dark);
+            background: var(--white);
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+
+        /* Header - Contact Info */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            margin: -0.5in -0.5in 20px -0.5in;
+            padding: 30px 0.5in;
+            color: var(--white);
+        }
+
+        .name {
+            font-size: 28pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-size: 12pt;
+            font-weight: 300;
+            margin-bottom: 12px;
+            opacity: 0.95;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+        }
+
+        .contact-info span {
+            margin: 0 8px;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        /* Section Headers - Standard ATS-friendly names */
+        .section-title {
+            font-size: 13pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            margin: 18px 0 12px 0;
+            padding-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Professional Summary */
+        .summary {
+            margin-bottom: 5px;
+            background: var(--light-gray);
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .summary p {
+            color: var(--dark);
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 20px;
+        }
+
+        .skills-category {
+            margin-bottom: 6px;
+            padding: 8px 10px;
+            background: var(--light-gray);
+            border-radius: 4px;
+        }
+
+        .skills-category strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 3px;
+            font-size: 10pt;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 3px solid var(--primary-light);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: var(--primary);
+            font-size: 12pt;
+        }
+
+        .job-date {
+            font-style: italic;
+            color: var(--gray);
+            font-size: 10pt;
+        }
+
+        .company {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--dark);
+        }
+
+        .job ul {
+            margin-left: 20px;
+        }
+
+        .job li {
+            margin-bottom: 3px;
+            color: var(--dark);
+        }
+
+        /* Education & Certifications */
+        .edu-item, .cert-item {
+            margin-bottom: 8px;
+        }
+
+        .cert-item ul {
+            margin-left: 20px;
+        }
+
+        .cert-item li {
+            margin-bottom: 3px;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 12px;
+            padding: 10px;
+            background: var(--light-gray);
+            border-radius: 5px;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .project-tech {
+            color: var(--gray);
+            font-size: 10pt;
+        }
+
+        /* Portfolio CTA */
+        .portfolio-cta {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            padding: 15px 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .portfolio-cta p {
+            margin: 0 0 8px 0;
+            font-size: 11pt;
+        }
+
+        .portfolio-cta a {
+            color: var(--white);
+            font-weight: bold;
+            font-size: 12pt;
+            text-decoration: underline;
+        }
+
+        .portfolio-cta .arrow {
+            font-size: 14pt;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0.5in;
+            }
+
+            .section-title {
+                page-break-after: avoid;
+            }
+
+            .job {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Link styles for PDF */
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        @media print {
+            a {
+                text-decoration: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER - Contact Information -->
+    <div class="header">
+        <div class="name">LAZAR MILICEVIC</div>
+        <div class="title">Senior Platform Engineer | Cloud & AI Automation Specialist</div>
+        <div class="contact-info">
+            <span>Belgrade, Serbia</span> |
+            <span><a href="tel:+381641213292">+381 64 121 32 92</a></span> |
+            <span><a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a></span>
+            <br>
+            <span><a href="https://linkedin.com/in/lazar-m-919853111" target="_blank">LinkedIn</a></span> |
+            <span><a href="https://github.com/lamingsrb" target="_blank">GitHub</a></span> |
+            <span><a href="https://lazarmilicevic.com" target="_blank"><strong>→ Portfolio & Live Demos</strong></a></span>
+        </div>
+    </div>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section-title">Professional Summary</div>
+    <div class="summary">
+        <p>Senior Platform Engineer with 10+ years of experience in cloud infrastructure, automation, and enterprise Business-to-Business Software as a Service (B2B SaaS) environments. Specialized in Amazon Web Services (AWS), Microsoft Azure, Python development, and Artificial Intelligence (AI) powered solutions. Proven track record architecting serverless integrations using AWS Lambda, API Gateway, and EventBridge that reduced manual work by 60% and achieved first-ever Service Level Agreement (SLA) compliance. Led analytics platform migrations delivering €30,000-60,000 annual cost savings. Strong background in technical support, customer success, and cross-functional team collaboration across US, UK, EU, and APAC timezones. Previously founded IT services company serving 50+ enterprise clients.</p>
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section-title">Technical Skills</div>
+
+    <div class="skills-grid">
+        <div class="skills-category">
+            <strong>Cloud Platforms</strong>
+            Amazon Web Services (AWS) - Lambda, API Gateway, EventBridge, S3, CloudWatch, IAM | Microsoft Azure | Google Cloud Platform (GCP) | Docker | Kubernetes
+        </div>
+
+        <div class="skills-category">
+            <strong>Programming & Scripting</strong>
+            Python | JavaScript | TypeScript | PowerShell | Bash | SQL | REST APIs | Application Programming Interface (API) Development
+        </div>
+
+        <div class="skills-category">
+            <strong>AI & Modern Development</strong>
+            Claude AI | OpenAI API | Cursor IDE | Supabase | Vercel | React | Next.js | Machine Learning (ML) Integration
+        </div>
+
+        <div class="skills-category">
+            <strong>DevOps & Tools</strong>
+            Git | GitHub | CI/CD | Jenkins | Terraform | VMware | Linux | Windows Server
+        </div>
+
+        <div class="skills-category">
+            <strong>Platforms & Integrations</strong>
+            Zendesk | Jira | Slack | Linear | HubSpot | PostHog | FullStory | Asana | Gmail API
+        </div>
+
+        <div class="skills-category">
+            <strong>Methodologies</strong>
+            Agile | Scrum | ITIL | Technical Support | Customer Success | SLA Management | Process Optimization
+        </div>
+    </div>
+
+    <!-- WORK EXPERIENCE -->
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Platform Engineer</span>
+            <span class="job-date">January 2025 - Present</span>
+        </div>
+        <div class="company">French Biotech Company - AI for Immunology | Paris, France (Remote)</div>
+        <ul>
+            <li>Architected enterprise-grade AWS Support-Zendesk integration using AWS Lambda, API Gateway, and EventBridge, reducing manual ticket escalation by 60% and achieving first-ever SLA compliance</li>
+            <li>Led FullStory to PostHog analytics platform migration, delivering €30,000-60,000 annual cost savings through vendor optimization and improved data pipeline efficiency</li>
+            <li>Defined and implemented global technical support process from scratch, establishing SLAs, intelligent routing logic, and cross-team workflows serving 500+ users</li>
+            <li>Optimized Zendesk configuration and license management, recovering €4,000-7,000 in unused licenses annually</li>
+            <li>Developed Python automation scripts connecting Zendesk, Linear, Slack, and AWS services, reducing manual work by 20-30 hours monthly</li>
+            <li>Collaborated with Product, Engineering, and Customer Success teams across US and EU timezones to resolve complex technical issues</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">IT Workplace L2 Engineer</span>
+            <span class="job-date">February 2023 - January 2025</span>
+        </div>
+        <div class="company">Gategroup | Zurich, Switzerland (Remote)</div>
+        <ul>
+            <li>Provided enterprise-level technical support across global offices, maintaining 95%+ SLA compliance on high-volume ticket queue</li>
+            <li>Managed cross-functional support requests spanning infrastructure, applications, and user access management</li>
+            <li>Collaborated with international teams across US, UK, Australia, and Hong Kong timezones</li>
+            <li>Implemented process improvements reducing average ticket resolution time by 25%</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Senior IT Engineer</span>
+            <span class="job-date">January 2022 - January 2023</span>
+        </div>
+        <div class="company">Customer Success Management Company | Belgrade, Serbia</div>
+        <ul>
+            <li>Delivered technical solutions for B2B SaaS clients requiring system integrations and automation</li>
+            <li>Developed custom Python scripts and API integrations improving client operational efficiency</li>
+            <li>Provided technical consultation and customer success support for enterprise accounts</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Founder & Technical Director</span>
+            <span class="job-date">2014 - 2022</span>
+        </div>
+        <div class="company">IT Services Company | Belgrade, Serbia</div>
+        <ul>
+            <li>Founded and operated IT services company serving 50+ enterprise clients with managed services, infrastructure support, and custom development</li>
+            <li>Delivered end-to-end technical solutions including network infrastructure, cloud migrations (AWS/Azure), and business automation</li>
+            <li>Built and managed team of technicians while maintaining direct client relationships and technical leadership</li>
+            <li>Achieved €60,000+ in documented cost savings for clients through infrastructure optimization and process automation</li>
+        </ul>
+    </div>
+
+    <!-- Portfolio CTA -->
+    <div class="portfolio-cta">
+        <p>View live demos, detailed case studies, and more projects on my portfolio:</p>
+        <span class="arrow">→</span> <a href="https://lazarmilicevic.com" target="_blank">lazarmilicevic.com</a> <span class="arrow">←</span>
+    </div>
+
+    <!-- KEY PROJECTS -->
+    <div class="section-title">Key Projects</div>
+
+    <div class="project">
+        <span class="project-title">Fakturko - SaaS Invoicing Platform</span>
+        <span class="project-tech">| Python, Docker, AWS, Azure, React Native</span>
+        <br>
+        Architected cloud-based SaaS invoicing solution for Serbian SMBs. Features include automated recurring invoices, government system integration (SEF/NBS), OCR receipt scanning, and offline-first mobile app. Reduces invoice creation from 15 minutes to under 2 minutes.
+    </div>
+
+    <div class="project">
+        <span class="project-title">AWS Support Integration System</span>
+        <span class="project-tech">| AWS Lambda, API Gateway, EventBridge, Python</span>
+        <br>
+        Built serverless integration between Zendesk and AWS Support. Eliminated manual AWS case creation, saving 20-30 hours monthly and achieving first-ever SLA compliance for enterprise support team.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Marketing Automation Suite</span>
+        <span class="project-tech">| Python, OpenAI API, Gmail API, Asana</span>
+        <br>
+        Developed 24/7 automation system for marketing agency running on VMware infrastructure. Auto-generates ad copy, creates tasks, and processes orders. Reduced manual work by 90%.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Stylera - Salon Booking SaaS</span>
+        <span class="project-tech">| React, TypeScript, Supabase, Resend API</span>
+        <br>
+        Full-stack booking platform with intelligent waitlist management increasing appointment fill rate by 20%. Features automated email notifications and real-time availability.
+    </div>
+
+    <div class="project">
+        <span class="project-title">BizFlowAI Lead Generator</span>
+        <span class="project-tech">| Python, HubSpot, Mailchimp, Dialpad</span>
+        <br>
+        Advanced B2B lead generation system with proxy rotation, error recovery, and multi-platform integration. Automated lead enrichment and CRM synchronization.
+    </div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <div class="section-title">Education and Certifications</div>
+
+    <div class="edu-item">
+        <strong>Bachelor's Degree in Information Technology</strong><br>
+        University of Belgrade | Belgrade, Serbia
+    </div>
+
+    <div class="cert-item">
+        <strong>Certifications:</strong>
+        <ul>
+            <li>AWS Certified Cloud Practitioner - Amazon Web Services</li>
+            <li>Microsoft Azure Fundamentals (AZ-900) - Microsoft</li>
+            <li>ITIL Foundation - IT Service Management</li>
+            <li>Google Analytics Certification - Google</li>
+        </ul>
+    </div>
+
+    <!-- ADDITIONAL INFORMATION -->
+    <div class="section-title">Additional Information</div>
+    <p>
+        <strong>Languages:</strong> English (Professional), Serbian (Native)<br>
+        <strong>Location:</strong> Belgrade, Serbia (European Timezone - Available for US morning coverage)<br>
+        <strong>Work Authorization:</strong> Available for remote work globally<br>
+        <strong>Availability:</strong> Available for full-time or part-time (20-25 hours/week) remote positions
+    </p>
+
+</body>
+</html>

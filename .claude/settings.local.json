@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(dir /s /b \"C:\\Code_Projects\\My_CV\")",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(npm install:*)",
+      "Bash(where:*)",
+      "Bash(nul)",
+      "Bash(where python:*)",
+      "Bash(where pip:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m pip install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
