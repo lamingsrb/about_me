@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazar Milicevic - L2 Technical Support Engineer CV</title>
+    <style>
+        /* ATS-Optimized CV - Clean Design */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0f766e;
+            --primary-light: #14b8a6;
+            --dark: #1e293b;
+            --gray: #64748b;
+            --light-gray: #f1f5f9;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: var(--dark);
+            background: var(--white);
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+
+        /* Header - Contact Info */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            margin: -0.5in -0.5in 20px -0.5in;
+            padding: 30px 0.5in;
+            color: var(--white);
+        }
+
+        .name {
+            font-size: 28pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-size: 12pt;
+            font-weight: 300;
+            margin-bottom: 12px;
+            opacity: 0.95;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+        }
+
+        .contact-info span {
+            margin: 0 8px;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid var(--primary);
+            font-size: 9pt;
+            color: var(--gray);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* Section Headers */
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            margin: 15px 0 10px 0;
+            padding-bottom: 4px;
+        }
+
+        /* Professional Summary */
+        .summary {
+            margin-bottom: 10px;
+            background: var(--light-gray);
+            padding: 12px;
+            border-radius: 4px;
+        }
+
+        /* Core Skills */
+        .core-skills {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: var(--light-gray);
+            border-radius: 4px;
+        }
+
+        .core-skills p {
+            margin: 0;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 15px;
+        }
+
+        .skills-category {
+            margin-bottom: 4px;
+            padding: 6px 8px;
+            background: var(--light-gray);
+            border-radius: 3px;
+            font-size: 10pt;
+        }
+
+        .skills-category strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 2px;
+            font-size: 9pt;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 3px solid var(--primary-light);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: var(--primary);
+            font-size: 11pt;
+        }
+
+        .job-date {
+            font-style: italic;
+            color: var(--gray);
+            font-size: 9pt;
+        }
+
+        .company {
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+
+        .job ul {
+            margin-left: 18px;
+            font-size: 10pt;
+        }
+
+        .job li {
+            margin-bottom: 2px;
+        }
+
+        /* Education & Certifications */
+        .edu-item, .cert-item {
+            margin-bottom: 6px;
+            font-size: 10pt;
+        }
+
+        .cert-item ul {
+            margin-left: 18px;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 8px;
+            padding: 8px;
+            background: var(--light-gray);
+            border-radius: 4px;
+            font-size: 10pt;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .project-tech {
+            color: var(--gray);
+            font-size: 9pt;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0.4in;
+            }
+            .section-title {
+                page-break-after: avoid;
+            }
+            .job {
+                page-break-inside: avoid;
+            }
+        }
+
+        a {
+            color: var(--dark);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER - Contact Information -->
+    <div class="header">
+        <div class="name">LAZAR MILICEVIC</div>
+        <div class="title">L2 Technical Support Engineer | Platform Engineer | Cloud & Automation Specialist</div>
+        <div class="contact-info">
+            <span>Belgrade, Serbia</span> |
+            <span><a href="tel:+381641213292">+381 64 121 32 92</a></span> |
+            <span><a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a></span>
+            <br>
+            <span><a href="https://linkedin.com/in/lazar-m-919853111">LinkedIn</a></span> |
+            <span><a href="https://github.com/lamingsrb">GitHub</a></span> |
+            <span><a href="https://about-me-fawn-delta.vercel.app/"><strong>→ Portfolio & Live Demos</strong></a></span>
+        </div>
+    </div>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section-title">Professional Summary</div>
+    <div class="summary">
+        <p>L2 Technical Support Engineer with 10+ years of experience in enterprise technical support, escalations, and complex troubleshooting. Expert in Windows Server, Microsoft 365, Azure, AWS, networking (Cisco, SonicWall), and ticketing systems (Zendesk, Jira, ConnectWise). Proven track record handling escalated issues, root cause analysis, and cross-team collaboration. Strong background in SaaS platforms, API integrations, database troubleshooting, and automation scripting (PowerShell, Python). Previously founded MSP serving 50+ enterprise clients. Experienced in remote work across multiple time zones with excellent communication skills and self-discipline.</p>
+    </div>
+
+    <!-- CORE SKILLS -->
+    <div class="section-title">Core Skills</div>
+    <div class="core-skills">
+        <p><strong>L2 Technical Support</strong> | <strong>Escalation Handling</strong> | <strong>Root Cause Analysis</strong> | <strong>Troubleshooting</strong> | <strong>Windows Server</strong> | <strong>Microsoft 365</strong> | <strong>Azure</strong> | <strong>AWS</strong> | <strong>Networking</strong> | <strong>SaaS Platforms</strong> | <strong>API Troubleshooting</strong> | <strong>Database Support</strong> | <strong>Ticketing Systems</strong> | <strong>PowerShell</strong> | <strong>Python</strong> | <strong>Cross-Team Collaboration</strong> | <strong>Technical Documentation</strong></p>
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+        <div class="skills-category">
+            <strong>Operating Systems & Servers</strong>
+            Windows Server 2016/2019/2022 | Active Directory | Group Policy | Linux | macOS | Remote Desktop | PowerShell Scripting
+        </div>
+
+        <div class="skills-category">
+            <strong>Cloud Platforms</strong>
+            Microsoft Azure | AWS (EC2, S3, Lambda, CloudWatch) | Azure AD | Microsoft 365 Admin | Cloud Migrations
+        </div>
+
+        <div class="skills-category">
+            <strong>Networking & Infrastructure</strong>
+            TCP/IP | DNS | DHCP | VPN | Cisco Routers/Switches | SonicWall Firewalls | Network Troubleshooting | Wireshark
+        </div>
+
+        <div class="skills-category">
+            <strong>Support Tools & Ticketing</strong>
+            Zendesk | Jira | ConnectWise | Autotask | ServiceNow | Confluence | SLA Management | Escalation Workflows
+        </div>
+
+        <div class="skills-category">
+            <strong>SaaS & API Support</strong>
+            REST APIs | Postman | API Troubleshooting | Webhook Debugging | JSON/XML | OAuth | SSO/SAML
+        </div>
+
+        <div class="skills-category">
+            <strong>Database & Scripting</strong>
+            SQL Server | MySQL | PostgreSQL | Basic SQL Queries | PowerShell | Python | Bash | Automation Scripts
+        </div>
+
+        <div class="skills-category">
+            <strong>Virtualization & Containers</strong>
+            VMware ESXi | Hyper-V | Docker | Virtualization Troubleshooting | Snapshot Management
+        </div>
+
+        <div class="skills-category">
+            <strong>L2 Support Skills</strong>
+            Root Cause Analysis | Log Analysis | Performance Monitoring | Cross-Team Escalations | Technical Documentation | Knowledge Base
+        </div>
+    </div>
+
+    <!-- WORK EXPERIENCE -->
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Platform Engineer & L2 Support Lead</span>
+            <span class="job-date">January 2025 - Present</span>
+        </div>
+        <div class="company">French Biotech Company | Paris, France (Remote)</div>
+        <ul>
+            <li>Handle L2 escalations for 500+ users across SaaS platform, Windows Server, Azure, and AWS environments</li>
+            <li>Perform root cause analysis on complex technical issues using log analysis, API troubleshooting, and system monitoring</li>
+            <li>Manage ticketing system workflows (Zendesk) with intelligent routing, SLA compliance, and escalation procedures</li>
+            <li>Built automation integrations using Python and AWS Lambda, reducing manual L2 work by 60%</li>
+            <li>Collaborate with engineering teams on bug fixes, feature requests, and product improvements</li>
+            <li>Create technical documentation and knowledge base articles for L1 support team</li>
+            <li>Monitor platform performance using CloudWatch, identifying and resolving issues proactively</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">IT Workplace L2 Engineer</span>
+            <span class="job-date">February 2023 - January 2025</span>
+        </div>
+        <div class="company">Gategroup | Zurich, Switzerland (Remote)</div>
+        <ul>
+            <li>Provided L2 technical support for enterprise Windows Server, Active Directory, and Microsoft 365 environments</li>
+            <li>Handled escalated tickets from L1 team with 95%+ SLA compliance through root cause analysis and troubleshooting</li>
+            <li>Performed network troubleshooting including VPN issues, firewall configurations, and connectivity problems</li>
+            <li>Managed high-volume ticketing queue across global offices (US, UK, Australia, Hong Kong time zones)</li>
+            <li>Collaborated with infrastructure team on server performance issues and system upgrades</li>
+            <li>Created PowerShell scripts for automation, improving incident resolution time by 25%</li>
+            <li>Documented solutions in knowledge base, reducing repeat L1 escalations</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Senior IT Engineer</span>
+            <span class="job-date">January 2022 - January 2023</span>
+        </div>
+        <div class="company">Customer Success Management Company | Belgrade, Serbia</div>
+        <ul>
+            <li>Delivered L2 technical support for B2B SaaS clients including API troubleshooting and integration issues</li>
+            <li>Performed root cause analysis on platform bugs, database performance issues, and system errors</li>
+            <li>Developed automation scripts using PowerShell and Python for operational efficiency</li>
+            <li>Worked with engineering team on bug reproduction, log analysis, and feature testing</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <span class="job-title">Founder & Technical Director</span>
+            <span class="job-date">2014 - 2022</span>
+        </div>
+        <div class="company">IT Services Company (MSP) | Belgrade, Serbia</div>
+        <ul>
+            <li>Founded and operated MSP serving 50+ enterprise clients with managed services and L2/L3 technical support</li>
+            <li>Handled escalations for Windows Server, Active Directory, Microsoft 365, and network infrastructure issues</li>
+            <li>Managed complex cloud migrations from on-premises to AWS/Azure with minimal downtime</li>
+            <li>Configured and maintained Cisco routers, SonicWall firewalls, and VPN infrastructures</li>
+            <li>Performed root cause analysis on critical incidents with 24/7 emergency response</li>
+            <li>Built and trained technical team while maintaining escalation procedures and documentation</li>
+            <li>Achieved €60,000+ in documented cost savings through infrastructure optimization and troubleshooting</li>
+        </ul>
+    </div>
+
+    <!-- KEY PROJECTS & ACCOMPLISHMENTS -->
+    <div class="section-title">Key Projects & Accomplishments</div>
+
+    <div class="project">
+        <span class="project-title">Enterprise Support Automation Platform</span>
+        <span class="project-tech">| AWS Lambda, Python, Zendesk API, Slack</span>
+        <br>
+        Built serverless integration automating L2 ticket workflows, API data synchronization, and alert routing. Eliminated manual case creation, saving 20-30 hours monthly and improving escalation response times.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Multi-Client MSP Infrastructure (50+ Enterprise Clients)</span>
+        <span class="project-tech">| Windows Server, Active Directory, Cisco, SonicWall, VMware</span>
+        <br>
+        Designed and maintained network infrastructure with centralized monitoring, backup systems, and escalation procedures. Achieved 99.8% uptime SLA across all clients.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Cloud Migration Projects (15+ Enterprises)</span>
+        <span class="project-tech">| AWS, Azure, Microsoft 365, VMware to Cloud</span>
+        <br>
+        Led complex cloud migrations from on-premises Windows Server to AWS/Azure. Implemented disaster recovery, automated backups, and performance monitoring with minimal downtime.
+    </div>
+
+    <div class="project">
+        <span class="project-title">AI-Powered Support Chatbot</span>
+        <span class="project-tech">| Python, OpenAI API, React, TypeScript</span>
+        <br>
+        Built intelligent chatbot handling L1 queries, reducing L2 escalations by 30%. Integrated with knowledge base for automated troubleshooting guidance.
+    </div>
+
+    <div class="project">
+        <span class="project-title">Personal Portfolio & Project Showcase</span>
+        <span class="project-tech">| React, TypeScript, Vercel, API Integrations</span>
+        <br>
+        Full-stack portfolio website with live demos of automation projects, API integrations, and technical solutions. Deployed on Vercel with CI/CD pipeline.
+    </div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <div class="section-title">Education and Certifications</div>
+
+    <div class="edu-item">
+        <strong>Bachelor's Degree in Information Technology</strong><br>
+        University of Belgrade | Belgrade, Serbia
+    </div>
+
+    <div class="cert-item">
+        <strong>Certifications:</strong>
+        <ul>
+            <li>AWS Certified Cloud Practitioner - Amazon Web Services</li>
+            <li>Microsoft Azure Fundamentals (AZ-900) - Microsoft</li>
+            <li>ITIL Foundation - IT Service Management</li>
+            <li>Google Analytics Certification - Google</li>
+        </ul>
+    </div>
+
+    <!-- ADDITIONAL INFORMATION -->
+    <div class="section-title">Additional Information</div>
+    <p style="font-size: 10pt;">
+        <strong>Languages:</strong> English (Professional), Serbian (Native)<br>
+        <strong>Location:</strong> Belgrade, Serbia (European Timezone - Flexible for US/UK/APAC coverage)<br>
+        <strong>Remote Setup:</strong> Stable fiber internet (100+ Mbps), professional home office, quality headset<br>
+        <strong>Work Style:</strong> Self-discipline, excellent communication, cross-team collaboration, continuous learning<br>
+        <strong>Availability:</strong> Full-time or Part-time (20-30 hours/week), flexible timezone coverage
+    </p>
+
+    <!-- FOOTER - Contact Info for ATS -->
+    <div class="footer">
+        <strong>Lazar Milicevic</strong> | Belgrade, Serbia | <a href="tel:+381641213292">+381 64 121 32 92</a> | <a href="mailto:lamingsrb@gmail.com">lamingsrb@gmail.com</a><br>
+        <a href="https://linkedin.com/in/lazar-m-919853111">LinkedIn</a> | <a href="https://github.com/lamingsrb">GitHub</a> | <a href="https://about-me-fawn-delta.vercel.app/">Portfolio</a>
+    </div>
+
+</body>
+</html>
